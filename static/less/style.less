@@ -1,0 +1,24 @@
+@import "bootstrap/bootstrap.less";
+
+body {
+	background-image: url(../img/header-bg.gif);
+	background-repeat: repeat-x;
+}
+
+header {
+	margin-bottom: 1em;
+	
+	h1, img {
+		display: inline;
+	}
+	
+	h1 {
+		color: #fff;
+		font-family: monospace;
+		font-size: ceil(@font-size-base * 1.50);
+	}
+}
+
+@media (max-width: @screen-sm-max) {
+	header { .text-center(); }
+}
