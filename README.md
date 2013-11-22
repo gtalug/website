@@ -1,4 +1,3 @@
-website
-=======
+# website
 
-The GTALUG Web site.
+The **GTALUG** web site.
