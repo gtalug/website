@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block page_title %}{{ page.title }}{% endblock page_title %}
+
+{% block page_logo %}{{ page.logo_svg }}{% endblock %}
+
+{% block page_shorturl %}{{ page.shorturl }}{% endblock %}
+
+{% block page_body_id %}{{ page.body_id }}{% endblock %}
+
+{% block page_body %}
+	{{ page.html|safe }}
+{% endblock %}
