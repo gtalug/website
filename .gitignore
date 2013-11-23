@@ -1,5 +1,10 @@
 *.py[cod]
 
+# Directories to ignore
+env/
+static/css/
+static/.webassets-cache/
+
 # C extensions
 *.so
 
