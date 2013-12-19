@@ -1,3 +1,4 @@
+Fabric==1.8.0
 Flask==0.10.1
 Flask-Assets==0.8
 Flask-FlatPages==0.5
@@ -8,6 +9,9 @@ Markdown==2.3.1
 MarkupSafe==0.18
 PyYAML==3.10
 Werkzeug==0.9.4
+ecdsa==0.10
 itsdangerous==0.23
+paramiko==1.12.0
+pycrypto==2.6.1
 webassets==0.9
 wsgiref==0.1.2
