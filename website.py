@@ -35,9 +35,9 @@ asset_manager = AssetManager(app)
 
 @app.route('/')
 def index():
-	page = pages.get_or_404('index')
-	template = page.meta.get('template', 'page.html')
-	return render_template(template, page=page)
+	meeting = meetings._pages.values()[0] # This is a really dirty way of doing this.
+	template = meeting.meta.get('template', 'home.html')
+	return render_template(template, meeting=meeting)
 
 @app.route('/robots.txt')
 def static_from_root():
