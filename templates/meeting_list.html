@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block page_title %}{{ page.title }}{% endblock page_title %}
+
+{% block page_body %}
+
+<ol class="breadcrumb">
+	<li><a href="/">Home</a></li>
+	<li class="active">Meetings</li>
+</ol>
+
+<div class="page-header">
+	<h1>Meetings</h1>
+</div>
+
+<ul>
+	{% for m in meetings %}
+	<li>
+		{{ m.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }} -
+		<a href="{{ m.path }}" itemprop="url">{{ m.meeting_title }}</a>
+		{% if m.meeting_speaker %}with {{ m.meeting_speaker }}{% endif %}
+	</li>
+	{% endfor %}
+</ul>
+{% endblock page_body %}

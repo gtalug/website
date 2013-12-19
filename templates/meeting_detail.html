@@ -3,6 +3,13 @@
 {% block page_title %}{{ meeting.meeting_title }} {% if meeting.meeting_speaker %}with {{ meeting.meeting_speaker }}{% endif %}{% endblock page_title %}
 
 {% block page_body %}
+
+<ol class="breadcrumb">
+	<li><a href="/">Home</a></li>
+	<li><a href="../">Meetings</a></li>
+	<li class="active">{{ meeting.meeting_title }}</li>
+</ol>
+
 <div class="panel panel-default" itemscope itemtype="http://schema.org/Event">
 	<div class="panel-heading">
 		<h2 class="panel-title">

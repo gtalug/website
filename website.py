@@ -42,10 +42,16 @@ def index():
 def static_from_root():
 	return send_from_directory(TEMPLATE_ROOT, request.path[1:])
 
+@app.route('/meeting/')
+def meeting_list():
+	page = pages.get_or_404('meeting')
+	template = page.meta.get('template', 'meeting_list.html')
+	return render_template(template, page=page, meetings=meetings)
+
 @app.route('/meeting/<path:slug>/')
-def meeting(slug):
+def meeting_detail(slug):
 	meeting = meetings.get_or_404(slug)
-	template = meeting.meta.get('template', 'meeting.html')
+	template = meeting.meta.get('template', 'meeting_detail.html')
 	return render_template(template, meeting=meeting)
 
 @app.route('/<path:path>/')
@@ -59,7 +65,7 @@ def page_list():
 	for p in pages:
 		yield 'page', { 'path': p.path }
 	for m in meetings:
-		yield 'meeting', { 'slug': m.path }
+		yield 'meeting_detail', { 'slug': m.path }
 
 if __name__ == '__main__':
 	if len(sys.argv) > 1 and sys.argv[1] == "build":
