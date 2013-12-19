@@ -19,6 +19,12 @@
 			{% if meeting.meeting_speaker %}
 			with
 			<a href="{{ meeting.meeting_speaker_link }}">{{ meeting.meeting_speaker }}</a>
+			{% elif meeting.meeting_speakers %}
+			with
+			{% for speaker in meeting.meeting_speakers %}
+			{{ speaker }}{% if not loop.last and not loop.length == 2 %}, {% endif %}
+			{% if loop.revindex == 2 %} and {% endif %}
+			{% endfor %}
 			{% endif %}
 			<small itemprop="startDate" contnet="2013-12-10T19:30">
 				{{ meeting.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
@@ -27,9 +33,21 @@
 	</div>	
 	<div class="panel-body">
 		{{ meeting.html|safe }}
+		
+		{% if meeting.meeting_location_template %}
+		<h4>Location</h4>
+		{% include meeting.meeting_location_template %}
+		{% endif %}
+		
+		{% if meeting.meeting_schedule_template %}
+		<h4>Schedule</h4>
+		{% include meeting.meeting_schedule_template %}
+		{% endif %}
 	</div>
+	{% if meeting.meeting_location and not meeting.meeting_schedule_template %}
 	<div class="panel-footer">
 		{{ meeting.meeting_location }}
 	</div>
+	{% endif %}
 </div>
 {% endblock %}

@@ -37,5 +37,5 @@ def deploy():
 		local_dir=env.build_path + "/",
 		remote_dir="/home/myles/gtalug.org/",
 		delete=True,
-		extra_opts='--exclude=".DS_Store" --exclude="static/less/" --exclude="static/.webassets-cache/"'
+		extra_opts='--exclude=".DS_Store" --exclude="static/less/" --exclude="static/.webassets-cache/" --exclude="static/js/less-1.5.0.min.js"'
 	)
