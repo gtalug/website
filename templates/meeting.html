@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block page_title %}{{ meeting.meeting_title }} {% if meeting.meeting_speaker %}with {{ meeting.meeting_speaker }}{% endif %}{% endblock page_title %}
+
+{% block page_body %}
+<div class="panel panel-default" itemscope itemtype="http://schema.org/Event">
+	<div class="panel-heading">
+		<h2 class="panel-title">
+			<span itemprop="name">
+				<a href="{{ meeting.meeting_wiki_link }}" itemprop="url">{{ meeting.meeting_title }}</a>
+			</span>
+			{% if meeting.meeting_speaker %}
+			with
+			<a href="{{ meeting.meeting_speaker_link }}">{{ meeting.meeting_speaker }}</a>
+			{% endif %}
+			<small itemprop="startDate" contnet="2013-12-10T19:30">
+				{{ meeting.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
+			</small>
+		</h2>
+	</div>	
+	<div class="panel-body">
+		{{ meeting.html|safe }}
+	</div>
+	<div class="panel-footer">
+		{{ meeting.meeting_location }}
+	</div>
+</div>
+{% endblock %}
