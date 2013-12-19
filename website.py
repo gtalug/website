@@ -21,7 +21,6 @@ TEMPLATE_ROOT = join(ROOT_DIR, "templates")
 MEETINGS_ROOT = join(ROOT_DIR, "meetings")
 
 class MeetingPages(FlatPages):
-	
 	@property
 	def root(self):
 		return MEETINGS_ROOT
@@ -57,8 +56,10 @@ def page(path):
 
 @freezer.register_generator
 def page_list():
-    for p in pages:
+	for p in pages:
 		yield 'page', { 'path': p.path }
+	for m in meetings:
+		yield 'page', { 'path', m.path }
 
 if __name__ == '__main__':
 	if len(sys.argv) > 1 and sys.argv[1] == "build":
