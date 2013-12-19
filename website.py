@@ -59,7 +59,7 @@ def page_list():
 	for p in pages:
 		yield 'page', { 'path': p.path }
 	for m in meetings:
-		yield 'page', { 'path', m.path }
+		yield 'meeting', { 'slug': m.path }
 
 if __name__ == '__main__':
 	if len(sys.argv) > 1 and sys.argv[1] == "build":
