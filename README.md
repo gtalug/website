@@ -1,7 +1,7 @@
 website
 =======
 
-The **GTALUG** web site.
+The [GTALUG](http://gtalug.org/ "Greater Toronto Area Linux User Group") web site.
 
 ## Develop
 
