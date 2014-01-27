@@ -26,9 +26,15 @@
 						<img src="/static/img/gtalug-logo-small.png" alt="GTALUG - Greater Toronto Area Linux User Group">
 					</a>
 					
-					<h1>GTALUG</h1>
-					<!-- TODO This needs to be rewritten
-					<p class="lead">Welcome to the Greater Toronto Area Linux User Group. Our community helps bring together those interested in learning about Linux and Open Source.</p> -->
+					<h1>
+						<acronym title="Greater Toronto Area Linux User Group">
+							GTALUG
+						</acronym>
+					</h1>
+					
+					<!-- TODO Write something clever about the group here:
+					<p class="lead"></p>
+					-->
 					
 					<ul>
 						<li><a href="https://www.facebook.com/gtalug">Facebook</a></li>
@@ -52,7 +58,12 @@
 					<div class="page">
 						{% block page_body %}{% endblock page_body %}
 					</div>
-				</div>
+					
+					<footer>
+						{% block footer %}{% endblock %}
+					</footer>
+				</main>
+			</div>
 		</div>
 	</body>
 </html>
