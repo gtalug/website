@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-from os.path import abspath, dirname, join
 import sys
+from collections import OrderedDict
+from os.path import abspath, dirname, join
 
 from flask import Flask, render_template, abort, send_from_directory, request
 
@@ -34,7 +35,7 @@ asset_manager = AssetManager(app)
 
 @app.route('/')
 def index():
-	meeting = meetings._pages.values()[0] # This is a really dirty way of doing this.
+	meeting = OrderedDict(sorted(meetings._pages.items())).values()[-1]
 	template = meeting.meta.get('template', 'home.html')
 	return render_template(template, meeting=meeting)
 
@@ -46,7 +47,8 @@ def static_from_root():
 def meeting_list():
 	page = pages.get_or_404('meeting')
 	template = page.meta.get('template', 'meeting_list.html')
-	return render_template(template, page=page, meetings=meetings)
+	meeting_list = reversed(OrderedDict(sorted(meetings._pages.items())).values())
+	return render_template(template, page=page, meetings=meeting_list)
 
 @app.route('/meeting/<path:slug>/')
 def meeting_detail(slug):
