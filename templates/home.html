@@ -13,15 +13,17 @@
 				<a href="{{ meeting.meeting_wiki_link }}" itemprop="url">{{ meeting.meeting_title }}</a>
 			</span>
 			{% if meeting.meeting_speaker %}
-			with&nbsp;<a href="{{ meeting.meeting_speaker_link }}">{{ meeting.meeting_speaker }}</a>
+			<span itemprop="performer" itemscope itemtype="http://schema.org/Person">
+				with&nbsp;<a href="{{ meeting.meeting_speaker_link }}" itemprop="name">{{ meeting.meeting_speaker }}</a>
+			</span>
 			{% endif %}
 		</h2>
-		<p class="lead" itemprop="startDate" contnet="2013-12-10T19:30">
+		<p class="lead" itemprop="startDate" content="2013-12-10T19:30">
 			{{ meeting.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
 		</p>
 	</header>
 	
-	<section>
+	<section itemprop="description">
 		{{ meeting.html|safe }}
 	</section>
 	

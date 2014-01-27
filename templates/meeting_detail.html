@@ -19,8 +19,9 @@
 				<a href="{{ meeting.meeting_wiki_link }}" itemprop="url">{{ meeting.meeting_title }}</a>
 			</span>
 			{% if meeting.meeting_speaker %}
-			with
-			<a href="{{ meeting.meeting_speaker_link }}">{{ meeting.meeting_speaker }}</a>
+			<span itemprop="performer" itemscope itemtype="http://schema.org/Person">
+				with&nbsp;<a href="{{ meeting.meeting_speaker_link }}" itemprop="name">{{ meeting.meeting_speaker }}</a>
+			</span>
 			{% elif meeting.meeting_speakers %}
 			with
 			{% for speaker in meeting.meeting_speakers %}
@@ -35,7 +36,7 @@
 		</p>
 	</header>
 	
-	<section>
+	<section itemprop="description">
 		{{ meeting.html|safe }}
 	</section>
 	
