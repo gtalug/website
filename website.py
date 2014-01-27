@@ -45,7 +45,9 @@ def static_from_root():
 
 @app.route('/about/bylaws/')
 def about_bylaws():
-	
+	page = pages.get_or_404('bylaws/GTALUG-Bylaw')
+	template = page.meta.get('template', 'pages/bylaws.html')
+	return render_template(template, page=page)
 
 @app.route('/meeting/')
 def meeting_list():

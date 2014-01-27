@@ -11,12 +11,16 @@
 	{% endblock %}
 	
 	<article>
+		{% block article_header %}
 		<header class="page-header">
 			<h1>{{ page.title }}</h1>
 		</header>
-	
+		{% endblock %}
+		
+		{% block article_section %}
 		<section>
 			{{ page.html|safe }}
 		</section>
+		{% endblock %}
 	</article>
 {% endblock %}
