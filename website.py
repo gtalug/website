@@ -43,12 +43,6 @@ def index():
 def static_from_root():
 	return send_from_directory(TEMPLATE_ROOT, request.path[1:])
 
-@app.route('/about/bylaws/')
-def about_bylaws():
-	page = pages.get_or_404('bylaws/GTALUG-Bylaw')
-	template = page.meta.get('template', 'pages/bylaws.html')
-	return render_template(template, page=page)
-
 @app.route('/meeting/')
 def meeting_list():
 	page = pages.get_or_404('meeting')
