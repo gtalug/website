@@ -3,14 +3,20 @@
 {% block page_title %}{{ page.title }}{% endblock page_title %}
 
 {% block page_body %}
+{% block breadcrumb %}
 <ol class="breadcrumb">
 	<li><a href="/">Home</a></li>
 	<li class="active">{{ page.title }}</li>
 </ol>
+{% endblock %}
 
-<div class="page-header">
-	<h1>{{ page.title }}</h1>
-</div>
+<article>
+	<header class="page-header">
+		<h1>{{ page.title }}</h1>
+	</header>
 
-{{ page.html|safe }}
+	<section>
+		{{ page.html|safe }}
+	</section>
+</article>
 {% endblock %}

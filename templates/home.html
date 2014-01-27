@@ -2,61 +2,47 @@
 
 {% block page_title %}GTALUG - Greater Toronto Area Linux User Group{% endblock page_title %}
 
-{% block page_body %}
-<div class="row">
-	<div class="col-xs-12">
-		<div class="jumbotron">
-			<p class="lead">Welcome to the Greater Toronto Area Linux User Group. Our community helps bring together those interested in learning about Linux and Open Source. </p>
-		</div>
-	</div>
-</div>
+{% block nav_home %}<li class="active"><a href="{{ url_for('index') }}">Home</a></li>{% endblock %}
 
-<div class="row">
-	<div class="col-sm-8">
-		<div class="panel panel-default" itemscope itemtype="http://schema.org/Event">
-			<div class="panel-heading">
-				<h2 class="panel-title">
-					<span itemprop="name">
-						<a href="{{ meeting.meeting_wiki_link }}" itemprop="url">{{ meeting.meeting_title }}</a>
-					</span>
-					{% if meeting.meeting_speaker %}
-					with
-					<a href="{{ meeting.meeting_speaker_link }}">{{ meeting.meeting_speaker }}</a>
-					{% endif %}
-					<small itemprop="startDate" contnet="2013-12-10T19:30">
-						{{ meeting.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
-					</small>
-				</h2>
-			</div>	
-			<div class="panel-body">
-				{{ meeting.html|safe }}
-			</div>
-			<div class="panel-footer">
-				<a href="http://gtalug.org/wiki/Main_Page">Upcoming Meeting and Events <span class="glyphicon glyphicon-circle-arrow-right"></span></a>
-			</div>
+{% block page_body %}
+
+<article itemscope itemtype="http://schema.org/Event">
+	<header class="page-header">
+		<h2>
+			<span itemprop="name">
+				<a href="{{ meeting.meeting_wiki_link }}" itemprop="url">{{ meeting.meeting_title }}</a>
+			</span>
+			{% if meeting.meeting_speaker %}
+			with&nbsp;<a href="{{ meeting.meeting_speaker_link }}">{{ meeting.meeting_speaker }}</a>
+			{% endif %}
+		</h2>
+		<p class="lead" itemprop="startDate" contnet="2013-12-10T19:30">
+			{{ meeting.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
+		</p>
+	</header>
+	
+	<section>
+		{{ meeting.html|safe }}
+	</section>
+	
+	<footer>
+		{% if meeting.meeting_location_template or meeting.meeting_location %}
+		<div class="location">
+			<h3>Location</h3>
+			{% if meeting.meeting_location_template %}
+			{% include meeting.meeting_location_template %}
+			{% else %}
+			{{ meeting.meeting_location }}
+			{% endif %}
 		</div>
-	</div>
-	<div class="col-sm-4">
-		<div class="thumbnail">
-			<img src="/static/img/map.png" alt="Meeting Location">
-			<div class="caption">
-				<h3>Meeting Location</h3>
-				<p>
-					<strong>George Vari Engineering and Computing&nbsp;Centre</strong>
-					at Ryerson&nbsp;University<br/>
-					245 Church Street, Room 211
-				</p>
-				<div class="btn-group btn-group-justified">
-					<a href="http://goo.gl/maps/16oJ2" class="btn btn-primary" role="button">Google</a>
-					<a href="http://osm.org/go/ZX6Bt554I-?m=&way=23447525" class="btn btn-primary" role="button"><abbr title="Open Street Map">OSM</addr></a>
-				</div>
-			</div>
+		{% endif %}
+		
+		{% if meeting.meeting_schedule_template %}
+		<div>
+			<h3>Schedule</h3>
+			{% include meeting.meeting_schedule_template %}
 		</div>
-		<div class="list-group">
-			<h4 class="list-group-item">Community</h4>
-			<a href="http://gtalug.org/wiki/Main_Page" class="list-group-item">Wiki</a>
-			<a href="http://gtalug.org/wiki/Mailing_list" class="list-group-item">Mailing List</a>
-		</div>
-	</div>
-</div>
+		{% endif %}
+	</footer>
+</article>
 {% endblock %}

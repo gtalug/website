@@ -20,16 +20,39 @@
 	<body id="www_gtalug_org">
 		<div class="container">
 			<div class="row">
-				<header class="col-xs-12" class="gtalug-logo">
-					<a href="http://gtalug.org/wiki/Main_Page" title="GTALUG - Greater Toronto Area Linux User Group">
+				
+				<aside>
+					<a href="{{ url_for('index') }}" title="GTALUG - Greater Toronto Area Linux User Group" class="logo">
 						<img src="/static/img/gtalug-logo-small.png" alt="GTALUG - Greater Toronto Area Linux User Group">
 					</a>
-				</header>
-			</div>
-			
-			{% block page_body %}{% endblock page_body %}
+					
+					<h1>GTALUG</h1>
+					<!-- TODO This needs to be rewritten
+					<p class="lead">Welcome to the Greater Toronto Area Linux User Group. Our community helps bring together those interested in learning about Linux and Open Source.</p> -->
+					
+					<ul>
+						<li><a href="https://www.facebook.com/gtalug">Facebook</a></li>
+						<li><a href="https://plus.google.com/110858902106738937194">Google+</a></li>
+						<li><a href="https://twitter.com/gtalug">Twitter</a></li>
+					</ul>
+				</aside>
+				
+				<main>
+					
+					<nav>
+						<ul>
+							{% block nav_home %}<li><a href="{{ url_for('index') }}">Home</a></li>{% endblock %}
+							{% block nav_meetings %}<li><a href="{{ url_for('meeting_list') }}">Meetings</a></li>{% endblock %}
+							{% block nav_about %}<li><a href="/about/">About</a></li>{% endblock %}
+							{% block nav_wiki %}<li><a href="http://gtalug.org/wiki/Main_Page">Wiki</a></li>{% endblock %}
+							{% block nav_mailing_list %}<li><a href="http://gtalug.org/wiki/Mailing_list">Mailing List</a></li>{% endblock %}
+						</ul>
+					</nav>
+					
+					<div class="page">
+						{% block page_body %}{% endblock page_body %}
+					</div>
+				</div>
 		</div>
-		
-		
 	</body>
 </html>

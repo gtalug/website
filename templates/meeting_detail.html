@@ -2,6 +2,8 @@
 
 {% block page_title %}{{ meeting.meeting_title }} {% if meeting.meeting_speaker %}with {{ meeting.meeting_speaker }}{% endif %}{% endblock page_title %}
 
+{% block nav_meetings %}<li class="active"><a href="{{ url_for('meeting_list') }}">Meetings</a></li>{% endblock %}
+
 {% block page_body %}
 
 <ol class="breadcrumb">
@@ -10,9 +12,9 @@
 	<li class="active">{{ meeting.meeting_title }}</li>
 </ol>
 
-<div class="panel panel-default" itemscope itemtype="http://schema.org/Event">
-	<div class="panel-heading">
-		<h2 class="panel-title">
+<article itemscope itemtype="http://schema.org/Event">
+	<header class="page-header">
+		<h2>
 			<span itemprop="name">
 				<a href="{{ meeting.meeting_wiki_link }}" itemprop="url">{{ meeting.meeting_title }}</a>
 			</span>
@@ -26,28 +28,35 @@
 			{% if loop.revindex == 2 %} and {% endif %}
 			{% endfor %}
 			{% endif %}
-			<small itemprop="startDate" contnet="2013-12-10T19:30">
-				{{ meeting.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
-			</small>
 		</h2>
-	</div>	
-	<div class="panel-body">
-		{{ meeting.html|safe }}
 		
-		{% if meeting.meeting_location_template %}
-		<h4>Location</h4>
-		{% include meeting.meeting_location_template %}
+		<p class="lead" itemprop="startDate" contnet="2013-12-10T19:30">
+			{{ meeting.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
+		</p>
+	</header>
+	
+	<section>
+		{{ meeting.html|safe }}
+	</section>
+	
+	<footer>
+		{% if meeting.meeting_location_template or meeting.meeting_location %}
+		<div class="location">
+			<h3>Location</h3>
+			{% if meeting.meeting_location_template %}
+			{% include meeting.meeting_location_template %}
+			{% else %}
+			{{ meeting.meeting_location }}
+			{% endif %}
+		</div>
 		{% endif %}
 		
 		{% if meeting.meeting_schedule_template %}
-		<h4>Schedule</h4>
-		{% include meeting.meeting_schedule_template %}
+		<div>
+			<h3>Schedule</h3>
+			{% include meeting.meeting_schedule_template %}
+		</div>
 		{% endif %}
-	</div>
-	{% if meeting.meeting_location and not meeting.meeting_schedule_template %}
-	<div class="panel-footer">
-		{{ meeting.meeting_location }}
-	</div>
-	{% endif %}
-</div>
+	</footer>
+</article>
 {% endblock %}

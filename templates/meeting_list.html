@@ -2,28 +2,32 @@
 
 {% block page_title %}{{ page.title }}{% endblock page_title %}
 
+{% block nav_meetings %}<li class="active"><a href="{{ url_for('meeting_list') }}">Meetings</a></li>{% endblock %}
+
 {% block page_body %}
 <ol class="breadcrumb">
 	<li><a href="/">Home</a></li>
 	<li class="active">Meetings</li>
 </ol>
 
-<div class="page-header">
-	<h1>Meetings</h1>
-</div>
-
-<div class="list-group">
-	{%- for m in meetings %}
-	<a href="{{ m.path }}" class="list-group-item">
-		<h4 class="list-group-item-heading">
-			{{ m.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
-		</h4>
-		<p class="list-group-item-text">
-			{{ m.meeting_title }}
-			{% if m.meeting_speaker %}with <strong>{{ m.meeting_speaker }}</strong>{% endif %}
-			{% if m.meeting_speakers %}with {% for speaker in m.meeting_speakers %}<strong>{{ speaker }}</strong>{% if not loop.last and not loop.length == 2 %}, {% endif %}{% if loop.revindex == 2 %} and {% endif %}{% endfor %}{% endif %}
-		</p>
-	</a>
-	{% endfor -%}
-</div>
+<article>
+	<header class="page-header">
+		<h1>Meetings</h1>
+	</header>
+	
+	<section class="list-group">
+		{%- for m in meetings %}
+		<a href="{{ m.path }}" class="list-group-item">
+			<h4 class="list-group-item-heading">
+				{{ m.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
+			</h4>
+			<p class="list-group-item-text">
+				{{ m.meeting_title }}
+				{% if m.meeting_speaker %}with <strong>{{ m.meeting_speaker }}</strong>{% endif %}
+				{% if m.meeting_speakers %}with {% for speaker in m.meeting_speakers %}<strong>{{ speaker }}</strong>{% if not loop.last and not loop.length == 2 %}, {% endif %}{% if loop.revindex == 2 %} and {% endif %}{% endfor %}{% endif %}
+			</p>
+		</a>
+		{% endfor -%}
+	</section>
+</article>
 {% endblock page_body %}

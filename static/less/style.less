@@ -1,24 +1,84 @@
 @import "bootstrap/bootstrap.less";
 
-body {
-	background-image: url(../img/header-bg.gif);
-	background-repeat: repeat-x;
-}
-
-header {
-	margin-bottom: 1em;
+aside {
+	.make-md-column(2);
+	.make-md-column-offset(1);
 	
-	h1, img {
-		display: inline;
+	text-align: right;
+	
+	.logo {
+		img {
+		}
 	}
 	
-	h1 {
-		color: #fff;
-		font-family: monospace;
-		font-size: ceil(@font-size-base * 1.50);
+	ul {
+		.nav;
+		.nav-pills;
+		.nav-stacked;
+	}
+	
+	
+}
+
+main {
+	.make-md-column(8);
+	.make-md-column-offset(4);
+	padding-left: 0;
+	
+	border-left: @gray-light 1px solid;
+	
+	nav {
+		padding: 40px;
+		
+		ul {
+			.nav;
+			.nav-pills;
+			.nav-justified;
+		}
+		
+		border-bottom: @gray-light 1px solid;
+	}
+	
+	.page {
+		
+	}
+	
+	article {
+		margin-left: 20px;
+		
+		header {
+		}
+		
+		footer {
+			.location {
+			}
+		}
+	}
+}
+
+@media (min-width: @screen-sm-max) {
+	aside {
+		position: fixed;
 	}
 }
 
 @media (max-width: @screen-sm-max) {
-	header { .text-center(); }
+	aside {
+		text-align: center;
+		border-bottom: @gray-light 1px solid;
+		
+		.logo {
+			img {
+				.center-block();
+			}
+		}
+		
+		ul {
+			display: none;
+		}
+	}
+	
+	main {
+		border-left: none;
+	}
 }
