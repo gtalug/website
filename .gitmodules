@@ -1,6 +1,0 @@
-[submodule "pages/bylaws"]
-	path = pages/bylaws
-	url = git://github.com/gtalug/bylaws.git
-[submodule "pages/code-of-conduct"]
-	path = pages/code-of-conduct
-	url = git://github.com/gtalug/code-of-conduct.git
