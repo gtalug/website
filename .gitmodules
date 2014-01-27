@@ -1,0 +1,3 @@
+[submodule "pages/bylaws"]
+	path = pages/bylaws
+	url = git://github.com/gtalug/bylaws.git

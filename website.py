@@ -16,7 +16,7 @@ BASE_URL = "http://gtalug.org"
 ASSETS_DEBUG = False
 ROOT_DIR = dirname(abspath(__file__))
 FLATPAGES_AUTO_RELOAD = True
-FLATPAGES_EXTENSION = ".html"
+FLATPAGES_EXTENSION = ".markdown"
 FLATPAGES_ROOT = join(ROOT_DIR, "pages")
 TEMPLATE_ROOT = join(ROOT_DIR, "templates")
 MEETINGS_ROOT = join(ROOT_DIR, "meetings")
@@ -42,6 +42,10 @@ def index():
 @app.route('/robots.txt')
 def static_from_root():
 	return send_from_directory(TEMPLATE_ROOT, request.path[1:])
+
+@app.route('/about/bylaws/')
+def about_bylaws():
+	
 
 @app.route('/meeting/')
 def meeting_list():
