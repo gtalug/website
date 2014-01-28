@@ -3,7 +3,7 @@
 {% block breadcrumb %}
 <ol class="breadcrumb">
 	<li><a href="/">Home</a></li>
-	<li><a href="/about/">About</a></li>
+	<li><a href="{{ url_for('page', path='about') }}">About</a></li>
 	<li class="active">GTALUG Bylaw</li>
 </ol>
 {% endblock %}

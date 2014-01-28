@@ -17,7 +17,7 @@
 	
 	<section class="list-group">
 		{%- for m in meetings %}
-		<a href="{{ m.path }}" class="list-group-item">
+		<a href="{{ url_for('meeting_detail', slug=m.path) }}" class="list-group-item">
 			<h4 class="list-group-item-heading">
 				{{ m.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
 			</h4>

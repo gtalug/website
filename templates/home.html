@@ -10,7 +10,7 @@
 	<header class="page-header">
 		<h2>
 			<span itemprop="name">
-				<a href="{{ meeting.meeting_wiki_link }}" itemprop="url">{{ meeting.meeting_title }}</a>
+				<a href="{{ url_for('meeting_detail', slug=meeting.path) }}" itemprop="url">{{ meeting.meeting_title }}</a>
 			</span>
 			{% if meeting.meeting_speaker %}
 			<span itemprop="performer" itemscope itemtype="http://schema.org/Person">
