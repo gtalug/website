@@ -24,3 +24,4 @@
     Standards:              HTML5, CSS3
     Components:             Bootstrap CSS v3
     Framework:              Flask
+	GitHub Repository:      <http://github.com/gtalug/website>
