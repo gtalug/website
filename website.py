@@ -39,6 +39,7 @@ def index():
 	template = meeting.meta.get('template', 'home.html')
 	return render_template(template, meeting=meeting)
 
+@app.route('/humans.txt')
 @app.route('/robots.txt')
 def static_from_root():
 	return send_from_directory(TEMPLATE_ROOT, request.path[1:])
