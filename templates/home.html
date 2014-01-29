@@ -18,7 +18,7 @@
 			</span>
 			{% endif %}
 		</h2>
-		<p class="lead" itemprop="startDate" content="2013-12-10T19:30">
+		<p class="lead" itemprop="startDate" content="{{ meeting.meeting_datetime }}">
 			{{ meeting.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
 		</p>
 	</header>
