@@ -76,5 +76,5 @@ if __name__ == '__main__':
 		app.testing = True
 		freezer.freeze()
 	else:
-    port = int(os.environ.get('PORT', 8000))
+		port = int(os.environ.get('PORT', 8000))
 		app.run(port=port)
