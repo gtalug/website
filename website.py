@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import os
 import sys
 from collections import OrderedDict
 from os.path import abspath, dirname, join
@@ -75,4 +76,5 @@ if __name__ == '__main__':
 		app.testing = True
 		freezer.freeze()
 	else:
-		app.run(port=8000)
+    port = int(os.environ.get('PORT', 8000))
+		app.run(port=port)
