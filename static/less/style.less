@@ -10,6 +10,7 @@
 
 aside {
 	.make-md-column(2);
+	.make-md-column-offset(1);
 	
 	text-align: right;
 	
@@ -30,8 +31,9 @@ aside {
 }
 
 main {
-	.make-md-column(8);
+	.make-md-column(7);
 	.make-md-column-offset(4);
+	
 	padding-left: 0;
 	
 	border-left: @gray-light 1px solid;
@@ -67,9 +69,13 @@ main {
 	}
 }
 
-@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+@media (min-width: @screen-md-min) {
 	aside {
-		.make-md-column-offset(1);
+		
+	}
+	
+	main {
+		
 	}
 }
 
