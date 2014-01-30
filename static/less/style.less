@@ -10,7 +10,6 @@
 
 aside {
 	.make-md-column(2);
-	.make-md-column-offset(1);
 	
 	text-align: right;
 	
@@ -65,6 +64,12 @@ main {
 			.location {
 			}
 		}
+	}
+}
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+	aside {
+		.make-md-column-offset(1);
 	}
 }
 
