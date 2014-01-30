@@ -34,6 +34,9 @@ main {
 	.make-md-column(7);
 	.make-md-column-offset(4);
 	
+	.make-lg-column(6);
+	.make-lg-column-offset(5);
+	
 	padding-left: 0;
 	
 	border-left: @gray-light 1px solid;
@@ -69,7 +72,7 @@ main {
 	}
 }
 
-@media (min-width: @screen-md-min) {
+@media (max-width: @screen-lg-min) {
 	aside {
 		
 	}
