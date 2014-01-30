@@ -1,0 +1,9 @@
+{% extends "pages/about.html" %}
+
+{% block breadcrumb %}
+<ol class="breadcrumb">
+	<li><a href="{{ url_for('index') }}">Home</a></li>
+	<li><a href="{{ url_for('page', path='about') }}">About</a></li>
+	<li class="active">Board</li>
+</ol>
+{% endblock %}

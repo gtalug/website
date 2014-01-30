@@ -1,3 +1,10 @@
 {% extends "page.html" %}
 
 {% block nav_about %}<li class="active"><a href="{{ url_for('page', path='about') }}">About</a></li>{% endblock %}
+
+{% block breadcrumb %}
+<ol class="breadcrumb">
+	<li><a href="{{ url_for('index') }}">Home</a></li>
+	<li class="active">About</li>
+</ol>
+{% endblock %}
