@@ -6,14 +6,14 @@
 	{% block breadcrumb %}
 	<ol class="breadcrumb">
 		<li><a href="/">Home</a></li>
-		<li class="active">{{ page.title }}</li>
+		<li class="active">{{ page.title | typogrify | safe }}</li>
 	</ol>
 	{% endblock %}
 	
 	<article>
 		{% block article_header %}
 		<header class="page-header">
-			<h1>{{ page.title }}</h1>
+			<h1>{{ page.title | typogrify | safe }}</h1>
 		</header>
 		{% endblock %}
 		

@@ -9,23 +9,23 @@
 <ol class="breadcrumb">
 	<li><a href="/">Home</a></li>
 	<li><a href="../">Meetings</a></li>
-	<li class="active">{{ meeting.meeting_title }}</li>
+	<li class="active">{{ meeting.meeting_title | typogrify | safe }}</li>
 </ol>
 
 <article itemscope itemtype="http://schema.org/Event">
 	<header class="page-header">
 		<h2>
 			<span itemprop="name">
-				<a href="{{ url_for('meeting_detail', slug=meeting.path) }}" itemprop="url">{{ meeting.meeting_title }}</a>
+				<a href="{{ url_for('meeting_detail', slug=meeting.path) }}" itemprop="url">{{ meeting.meeting_title | typogrify | safe }}</a>
 			</span>
 			{% if meeting.meeting_speaker %}
 			<span itemprop="performer" itemscope itemtype="http://schema.org/Person">
-				with&nbsp;<a href="{{ meeting.meeting_speaker_link }}" itemprop="name">{{ meeting.meeting_speaker }}</a>
+				with&nbsp;<a href="{{ meeting.meeting_speaker_link }}" itemprop="name">{{ meeting.meeting_speaker | typogrify | safe }}</a>
 			</span>
 			{% elif meeting.meeting_speakers %}
 			with
 			{% for speaker in meeting.meeting_speakers %}
-			{{ speaker }}{% if not loop.last and not loop.length == 2 %}, {% endif %}
+			{{ speaker | typogrify | safe }}{% if not loop.last and not loop.length == 2 %}, {% endif %}
 			{% if loop.revindex == 2 %} and {% endif %}
 			{% endfor %}
 			{% endif %}

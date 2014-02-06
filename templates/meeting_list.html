@@ -22,8 +22,8 @@
 				{{ m.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
 			</h4>
 			<p class="list-group-item-text">
-				{{ m.meeting_title }}
-				{% if m.meeting_speaker %}with <strong>{{ m.meeting_speaker }}</strong>{% endif %}
+				{{ m.meeting_title | typogrify | safe }}
+				{% if m.meeting_speaker %}with <strong>{{ m.meeting_speaker | typogrify | safe }}</strong>{% endif %}
 				{% if m.meeting_speakers %}with {% for speaker in m.meeting_speakers %}<strong>{{ speaker }}</strong>{% if not loop.last and not loop.length == 2 %}, {% endif %}{% if loop.revindex == 2 %} and {% endif %}{% endfor %}{% endif %}
 			</p>
 		</a>

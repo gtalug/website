@@ -11,6 +11,8 @@ from flask_frozen import Freezer
 from flask_flatpages import FlatPages, pygmented_markdown
 from flask_assets import Environment as AssetManager
 
+from typogrify.templatetags import jinja_filters as typogrify_filters
+
 # Configuration
 DEBUG = True
 BASE_URL = "http://gtalug.org"
@@ -29,6 +31,7 @@ class MeetingPages(FlatPages):
 
 app = Flask(__name__, template_folder=TEMPLATE_ROOT)
 app.config.from_object(__name__)
+app.jinja_env.filters['typogrify'] = typogrify_filters.typogrify
 pages = FlatPages(app)
 meetings = MeetingPages(app)
 freezer = Freezer(app)
