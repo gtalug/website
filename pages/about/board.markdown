@@ -53,6 +53,12 @@ The GTALUG Board is made up of five elected members.
 	
 	<dt>Twitter</dt>
 	<dd><a href="http://twitter.com/mylesb">@mylesb</a></dd>
+	
+	<dt>GPG Key</dt>
+	<dd><a href="5A2FE7BF.pub">5A2FE7BF</a><dd>
+	
+	<dt>GPG Fingerprint</dt>
+	<dd>45A5 ED20 B8E8 06FD 8CF8 ED1E 6A4C E837 5A2F E7BF</dd>
 </dl>
 
 ### Ivan TODO
