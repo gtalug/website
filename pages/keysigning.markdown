@@ -20,7 +20,7 @@ Get your KEYID from your keyring as the part following the 1024D/ as follows:
 
     gpg --list-secret-keys | grep sec
 
-Here is how to send your key to the keyserver:
+Here is how to send your public key to the keyserver:
 
     gpg --keyserver gpg.mit.edu --send-keys <KEYID>
 
