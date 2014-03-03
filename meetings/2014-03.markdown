@@ -1,0 +1,9 @@
+meeting_title: "Cortex-M, For Type-A Developers"
+meeting_datetime: 2014-03-11T19:30:00
+meeting_location: "George Vari Engineering and Computing Centre, Room 211"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2013-11.html
+meeting_wiki_link: http://gtalug.org/wiki/Meetings:2014-03
+meeting_speaker: "Trevor Woerner"
+
+Coding, compiling, programming, and debugging Cortex-M devices in an all-Linux development environment.
