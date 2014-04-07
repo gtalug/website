@@ -1,7 +1,7 @@
-title: GTALUG Executive Commit
-template: pages/board.html
+title: Board
+template: pages/about-sub.html
 
-## Board
+## GTALUG Board
 
 The GTALUG Board is made up of five elected members.
 
@@ -107,3 +107,4 @@ There is currently one board seat open.
 * Gordon Chilcott
 * Amos H. Weatherill
 * Jeff Pikul
+* Bill Thanis

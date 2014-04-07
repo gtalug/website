@@ -1,9 +1,11 @@
 {% extends "pages/about.html" %}
 
+{% block page_title %}GTALUG {{ page.title }}{% endblock page_title %}
+
 {% block breadcrumb %}
 <ol class="breadcrumb">
 	<li><a href="{{ url_for('index') }}">Home</a></li>
 	<li><a href="{{ url_for('page', path='about') }}">About</a></li>
-	<li class="active">Board</li>
+	<li class="active">{{ page.title }}</li>
 </ol>
 {% endblock %}
