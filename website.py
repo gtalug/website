@@ -2,6 +2,7 @@
 
 import os
 import sys
+import datetime
 from collections import OrderedDict
 from os.path import abspath, dirname, join
 
@@ -11,6 +12,10 @@ from flask_frozen import Freezer
 from flask_flatpages import FlatPages, pygmented_markdown
 from flask_assets import Environment as AssetManager
 
+import dateutil
+import vobject
+import html2text
+from dateutil import rrule
 from typogrify.templatetags import jinja_filters as typogrify_filters
 
 # Configuration
@@ -23,6 +28,7 @@ FLATPAGES_EXTENSION = ".markdown"
 FLATPAGES_ROOT = join(ROOT_DIR, "pages")
 TEMPLATE_ROOT = join(ROOT_DIR, "templates")
 MEETINGS_ROOT = join(ROOT_DIR, "meetings")
+TIMEZONE = 'America/Toronto'
 
 class MeetingPages(FlatPages):
 	@property
@@ -47,6 +53,57 @@ def index():
 @app.route('/robots.txt')
 def static_from_root():
 	return send_from_directory(TEMPLATE_ROOT, request.path[1:])
+
+@app.route('/gtalug.ics')
+def gtalug_ics():
+	meeting_list = list(reversed(OrderedDict(sorted(meetings._pages.items())).values()))
+	
+	cal = vobject.iCalendar()
+	cal.add('method').value = 'PUBLISH'
+	cal.add('VTIMEZONE').tzinfo = dateutil.tz.tzlocal()
+	
+	for m in meeting_list:
+		event = cal.add('vevent')
+		
+		event.add('uid').value = "meeting-%s@GTALUG.org" % m.path
+		
+		event.add('summary').value = "GTALUG Meeting: %s" % m.meta['meeting_title']
+		event.add('description').value = html2text.html2text(m.html)
+		event.add('url').value = 'http://gtalug.org/meeting/%s/' % m.path
+		
+		event.add('status').value = 'CONFIRMED'
+		event.add('location').value = m.meta['meeting_location']
+		
+		meeting_datetime = m.meta['meeting_datetime']
+		
+		event.add('dtstart').value = meeting_datetime
+		event.add('dtend').value = meeting_datetime + datetime.timedelta(hours=2)
+	
+	last_meeting_date = meeting_list[0].meta['meeting_datetime']
+	
+	upcoming_meetings = list(rrule.rrule(
+		freq = rrule.MONTHLY,
+		dtstart = last_meeting_date + datetime.timedelta(days=1),
+		count = 5,
+		byweekday = (rrule.TU),
+		bysetpos = 2
+	))
+	
+	for m in upcoming_meetings:
+		event = cal.add('vevent')
+		
+		event.add('uid').value = "meeting-%s@GTALUG.org" % (m.strftime("%Y-%m"))
+		
+		event.add('summary').value = "GTALUG Meeting"
+		event.add('description').value = "An upcoming GTALUG meeting."
+		event.add('url').value = 'http://gtalug.org/'
+		
+		event.add('status').value = 'TENTATIVE'
+		
+		event.add('dtstart').value = m
+		event.add('dtend').value = m + datetime.timedelta(hours=2)
+	
+	return cal.serialize()
 
 @app.route('/meeting/')
 def meeting_list():
