@@ -6,7 +6,7 @@ import datetime
 from collections import OrderedDict
 from os.path import abspath, dirname, join
 
-from flask import Flask, render_template, abort, send_from_directory, request
+from flask import Flask, Response, render_template, abort, send_from_directory, request
 
 from flask_frozen import Freezer
 from flask_flatpages import FlatPages, pygmented_markdown
@@ -103,7 +103,7 @@ def gtalug_ics():
 		event.add('dtstart').value = m
 		event.add('dtend').value = m + datetime.timedelta(hours=2)
 	
-	return cal.serialize()
+	return Response(cal.serialize(), mimetype='text/calendar')
 
 @app.route('/meeting/')
 def meeting_list():
