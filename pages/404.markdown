@@ -1,0 +1,4 @@
+title: "GTALUG - 404 Not Found"
+template: 404.html
+
+This file is only used for meta data.

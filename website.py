@@ -54,6 +54,10 @@ def index():
 def static_from_root():
 	return send_from_directory(TEMPLATE_ROOT, request.path[1:])
 
+@app.route('/.htaccess')
+def htaccess():
+	return send_from_directory(TEMPLATE_ROOT, 'htaccess.htaccess')
+
 @app.route('/gtalug.ics')
 def gtalug_ics():
 	meeting_list = list(reversed(OrderedDict(sorted(meetings._pages.items())).values()))
