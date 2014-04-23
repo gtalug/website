@@ -55,10 +55,7 @@ The GTALUG Board is made up of five elected members.
 	<dd><a href="http://twitter.com/mylesb">@mylesb</a></dd>
 	
 	<dt>GPG Key</dt>
-	<dd><a href="5A2FE7BF.pub">5A2FE7BF</a><dd>
-	
-	<dt>GPG Fingerprint</dt>
-	<dd>45A5 ED20 B8E8 06FD 8CF8 ED1E 6A4C E837 5A2F E7BF</dd>
+	<dd><a href="/static/gpg-keys/myles-braithwaite.asc">45A5&nbsp;ED20&nbsp;B8E8&nbsp;06FD&nbsp;8CF8 ED1E&nbsp;6A4C&nbsp;E837&nbsp;5A2F&nbsp;E7BF</a><dd>
 </dl>
 
 ### Ivan TODO
@@ -99,12 +96,3 @@ There is currently one board seat open.
 	<dt><acronym title="Public Relations">P.R.</acronym> Executive</dt>
 	<dd>Myles Braithwaite</dt>
 </dl>
-
-## Current Executives
-
-* David Colier-Brown
-* Mike Kallies
-* Gordon Chilcott
-* Amos H. Weatherill
-* Jeff Pikul
-* Bill Thanis
