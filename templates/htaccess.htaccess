@@ -208,23 +208,23 @@ AddDefaultCharset utf-8
 # http://www.rackspace.com/knowledge_center/frequently-asked-question/why-is-mod-rewrite-not-working-on-my-site
 
 <IfModule mod_rewrite.c>
-	Options +FollowSymlinks
-	# Options +SymLinksIfOwnerMatch
-	RewriteEngine On
-	RewriteBase /
-	
-	RewriteRule ^wiki/$						/ [R,L]
-	RewriteRule ^wiki/Main_Page$			/ [R,L]
-	RewriteRule ^wiki/Mailing_lists$		/mailing-lists/ [R,L]
-	RewriteRule ^wiki/Manifesto$			/about/ [R,L]
-	RewriteRule ^wiki/Code_of_Conduct$		/about/code-of-conduct/ [R,L]
-	RewriteRule ^wiki/Events$				/meeting/ [R,L]
-	RewriteRule ^wiki/Historical:Meetings$	/meeting/ [R,L]
-	RewriteRule ^wiki/Meetings$				/meeting/ [R,L]
-	RewriteRule ^wiki/Meetings:(.*)$		/meeting/$1 [R,L]
-	
-	RewriteRule ^wiki/(.*)$					/?old-wiki-page=$1 [B,R,L]
-	RewriteRule ^mediawiki/(.*)$			/ [R,L]
+    Options +FollowSymlinks
+    # Options +SymLinksIfOwnerMatch
+    RewriteEngine On
+    RewriteBase /
+    
+    RewriteRule ^wiki/$                     / [R,L]
+    RewriteRule ^wiki/Main_Page$            / [R,L]
+    RewriteRule ^wiki/Mailing_lists$        /mailing-lists/ [R,L]
+    RewriteRule ^wiki/Manifesto$            /about/ [R,L]
+    RewriteRule ^wiki/Code_of_Conduct$      /about/code-of-conduct/ [R,L]
+    RewriteRule ^wiki/Events$               /meeting/ [R,L]
+    RewriteRule ^wiki/Historical:Meetings$  /meeting/ [R,L]
+    RewriteRule ^wiki/Meetings$             /meeting/ [R,L]
+    RewriteRule ^wiki/Meetings:(.*)$        /meeting/$1 [R,L]
+    
+    RewriteRule ^wiki/(.*)$                 /?old-wiki-page=$1 [B,R,L]
+    RewriteRule ^mediawiki/(.*)$            / [R,L]
 </IfModule>
 
 # ------------------------------------------------------------------------------
@@ -346,7 +346,7 @@ AddDefaultCharset utf-8
 # places such as the CMS's directories).
 
 <IfModule mod_autoindex.c>
-	Options -Indexes
+    Options -Indexes
 </IfModule>
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -355,9 +355,9 @@ AddDefaultCharset utf-8
 # This includes directories used by version control systems such as Git and SVN.
 
 <IfModule mod_rewrite.c>
-	RewriteCond %{SCRIPT_FILENAME} -d [OR]
-	RewriteCond %{SCRIPT_FILENAME} -f
-	RewriteRule "(^|/)\." - [F]
+    RewriteCond %{SCRIPT_FILENAME} -d [OR]
+    RewriteCond %{SCRIPT_FILENAME} -f
+    RewriteRule "(^|/)\." - [F]
 </IfModule>
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -375,17 +375,17 @@ AddDefaultCharset utf-8
 # build scripts, etc..
 
 <FilesMatch "(^#.*#|\.(bak|config|dist|fla|in[ci]|log|psd|sh|sql|sw[op])|~)$">
-	# Apache < 2.3
-	<IfModule !mod_authz_core.c>
-		Order allow,deny
-		Deny from all
-		Satisfy All
-	</IfModule>
-	
-	# Apache ≥ 2.3
-	<IfModule mod_authz_core.c>
-		Require all denied
-	</IfModule>
+    # Apache < 2.3
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+        Satisfy All
+    </IfModule>
+    
+    # Apache ≥ 2.3
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
 </FilesMatch>
 
 # ------------------------------------------------------------------------------
