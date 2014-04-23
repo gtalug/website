@@ -122,6 +122,32 @@ def meeting_detail(slug):
 	template = meeting.meta.get('template', 'meeting_detail.html')
 	return render_template(template, meeting=meeting)
 
+@app.route('/meeting/<path:slug>/gtalug-meeting.ics')
+def meeting_detail_ics(slug):
+	meeting = meetings.get_or_404(slug)
+	
+	cal = vobject.iCalendar()
+	cal.add('method').value = 'PUBLISH'
+	cal.add('VTIMEZONE').tzinfo = dateutil.tz.tzlocal()
+	
+	event = cal.add('vevent')
+	
+	event.add('uid').value = "meeting-%s@GTALUG.org" % meeting.path
+	
+	event.add('summary').value = "GTALUG Meeting: %s" % meeting.meta['meeting_title']
+	event.add('description').value = html2text.html2text(meeting.html)
+	event.add('url').value = 'http://gtalug.org/meeting/%s/' % meeting.path
+	
+	event.add('status').value = 'CONFIRMED'
+	event.add('location').value = meeting.meta['meeting_location']
+	
+	meeting_datetime = meeting.meta['meeting_datetime']
+	
+	event.add('dtstart').value = meeting_datetime
+	event.add('dtend').value = meeting_datetime + datetime.timedelta(hours=2)
+	
+	return Response(cal.serialize(), mimetype='text/calendar')
+
 @app.route('/<path:path>/')
 def page(path):
 	page = pages.get_or_404(path)
@@ -134,6 +160,7 @@ def page_list():
 		yield 'page', { 'path': p.path }
 	for m in meetings:
 		yield 'meeting_detail', { 'slug': m.path }
+		yield 'meeting_detail_ics', { 'slug': m.path }
 
 if __name__ == '__main__':
 	if len(sys.argv) > 1 and sys.argv[1] == "build":
