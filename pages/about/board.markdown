@@ -15,7 +15,7 @@ The GTALUG Board is made up of five elected members.
 	<dd><em>President of the Organization</em>, <em>President of the Board</em>, and <em>Talks Coordinator</em>.</dd>
 	
 	<dt>Email</dt>
-	<dd>scott@example.org</dd>
+	<dd>scott@ss.org</dd>
 </dl>
 
 
@@ -26,7 +26,7 @@ The GTALUG Board is made up of five elected members.
 	<dd>2013-2015, 2011-2013, 2009-2011, 2007-2009, and 2005-2007</dd>
 	
 	<dt>Roles</dt>
-	<dd><em>Treasure</em> and <em>Secretary</em></dd>
+	<dd><em>Treasurer</em> and <em>Secretary</em></dd>
 	
 	<dt>Email</dt>
 	<dd>cbbrowne@acm.org</dd>
@@ -76,19 +76,19 @@ There is currently one board seat open.
 
 <dl class="dl-horizontal">
 	<dt>President of the Organization</dt>
-	<dd>Scott Sulivan</dd>
+	<dd>Scott Sullivan</dd>
 	
 	<dt>President of the Board</dt>
-	<dd>Scott Sulivan</dd>
+	<dd>Scott Sullivan</dd>
 	
-	<dt>Treasure</dt>
+	<dt>Treasurer</dt>
 	<dd>Christopher Browne</dt>
 	
 	<dt>Secretary</dt>
 	<dd>Christopher Browne</dd>
 	
 	<dt>Talks Coordinator</dt>
-	<dd>Scott Sulivan</dd>
+	<dd>Scott Sullivan</dd>
 	
 	<dt>Webmaster</dt>
 	<dd>Myles Braithwaite</dd>
