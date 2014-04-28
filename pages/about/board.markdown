@@ -5,7 +5,7 @@ template: pages/about-sub.html
 
 The GTALUG Board is made up of five elected members.
 
-### Scott Sulivan
+### Scott Sullivan
 
 <dl class="dl-horizontal">
 	<dt>Elected</dt>
