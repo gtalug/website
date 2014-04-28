@@ -29,7 +29,7 @@ The GTALUG Board is made up of five elected members.
 	<dd><em>Treasure</em> and <em>Secretary</em></dd>
 	
 	<dt>Email</dt>
-	<dd>christopher@example.org</dd>
+	<dd>cbbrowne@acm.org</dd>
 </dl>
 
 ### Myles Braithwaite
