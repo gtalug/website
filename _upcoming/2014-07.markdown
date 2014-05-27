@@ -1,0 +1,24 @@
+meeting_title: "Movie Magic: The Art of Visual Effects"
+meeting_datetime: 2014-07-08T19:30:00
+meeting_location: "George Vari Engineering and Computing Centre, Room 211"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2013-11.html
+meeting_speaker: "Ahmed Shehata"
+
+Visual effects is the process of integration of live-action footage and
+<acronym title="Computer Generated Imagery">CGI</acronym> to create
+environments which look realistic. **Ahmed Shehata** will demonstrate
+various concepts and techniques used in the post-production to achieve
+the results you see in today's major blockbuster films.
+
+The lecture is starts with a journey behind the scenes of visual effects
+production from the creation of assets and environment modeling,
+photo-realistic texturing, 3D tracking for lighting, rendering and
+compositing the delivered image outputs.
+
+**Ahmed Shehata** will also showcase SynqTools (a work-in-progress
+development project for <acronym title="Visual Effects">VFX</acronym>
+production) a tool that enables Web sites to interact and send commands
+to desktop 3D applications (such as Maya) through ports using a variety
+of Open Source packages and programming languages (such as Java, JavaScript,
+C++, wxWidgets, MySQL, and PHP).

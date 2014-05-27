@@ -5,7 +5,7 @@ import os
 from fabric.contrib.project import rsync_project
 from fabric.api import env, puts, local, task, hosts, execute, runs_once
 
-env.hosts = ['lavender',]
+env.hosts = ['panda',]
 env.use_ssh_config = True
 env.build_path = os.path.abspath('./build/')
 
@@ -46,7 +46,7 @@ def build():
 	local('./env/bin/python website.py build')
 
 @task
-@hosts('lavender')
+@hosts('panda')
 def deploy():
 	"""
 	This will deploy the web site to the GTALUG server.
@@ -55,7 +55,7 @@ def deploy():
 	build()
 	rsync_project(
 		local_dir=env.build_path + "/",
-		remote_dir="/home/vhosts/gtalug.org/www/",
+		remote_dir="/srv/www/org_gtalug/www/html/",
 		delete=False,
 		extra_opts='--exclude=".DS_Store" --exclude="static/less/" --exclude="static/.webassets-cache/" --exclude="static/js/less-1.5.0.min.js"'
 	)
