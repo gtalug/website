@@ -1,0 +1,18 @@
+meeting_title: "Database Panel: 'The Battle of Serialization Methods!' with Bill Thanis as moderator"
+meeting_datetime: 2012-12-11T19:30:00
+meeting_location: "Room GB248, Galbraith Building, University of Toronto"
+meeting_speakers:
+- Ivan
+- Myles Braithwaite
+- Christopher Browne
+
+Panelists
+
+<dl>
+<dt>Ivan</dt>
+<dd>DB2</dd>
+<dt>Myles Braithwaite</dt>
+<dd>CouchDB</dd>
+<dt>Christopher Browne</dt>
+<dd>PostgreSQL</dd>
+</dl>

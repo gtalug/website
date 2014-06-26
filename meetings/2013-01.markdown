@@ -1,0 +1,8 @@
+meeting_title: "The G20 Geek - 'Poking the Bear', and What Happened Afterwards"
+meeting_datetime: 2013-01-08T19:30:00
+meeting_location: "Room GB248, Galbraith Building, University of Toronto"
+meeting_speaker: "Byron Sonne"
+
+Byron will discuss his experiences of the legal system, arrest and acquittal, and how it relates to security and the impact on our lives. He will talk about how he has re-entered the field of IT security and reverse engineering, and the exciting work he is doing now.
+
+Better known as the 'Anarchist of Forest Hill' or the 'G20 Geek', Byron Sonne had his life ripped apart as a consequence of G20 security measures, spending 11 months in jail before being acquitted of all charges. He has worked for many years in IT security, and likes cheese, cats, and mountain biking.

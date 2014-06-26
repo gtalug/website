@@ -1,0 +1,7 @@
+meeting_title: "Scrum 101: The Basics"
+meeting_datetime: 2012-11-13T19:30:00
+meeting_location: "Room GB248, Galbraith Building, University of Toronto"
+meeting_speakers:
+- Todd Charron
+
+In this session, Todd will cover the basics and origins of Agile and Scrum and how the two relate. He will examine why any organization would want to do Scrum in the first place, what the benefits are and some of the challenges to expect when beginning with Scrum. He will go over the basics of the framework, how it works, and some of the common pitfalls organizations run into when they're just getting started with Scrum. He will also have some time for Q&A to answer any particular questions you may have.
