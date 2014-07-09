@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block page_title %}{{ page.title }}{% endblock page_title %}
+
+{% block nav_events %}<li class="active"><a href="{{ url_for('event_list') }}">Events</a></li>{% endblock %}
+
+{% block page_body %}
+
+<ol class="breadcrumb">
+	<li><a href="/">Home</a></li>
+	<li><!-- <a href="../"> --><href="#">Events</a></li>
+	<li class="active">{{ page.title | typogrify | safe }}</li>
+</ol>
+
+{{ page.html|safe }}
+{% endblock %}
