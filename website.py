@@ -2,6 +2,7 @@
 
 import os
 import sys
+import json
 import datetime
 from collections import OrderedDict
 from os.path import abspath, dirname, join
@@ -57,6 +58,19 @@ def static_from_root():
 @app.route('/.htaccess')
 def htaccess():
 	return send_from_directory(TEMPLATE_ROOT, 'htaccess.htaccess')
+
+@app.route('/api/upcoming_meeting.json')
+def api_meeting_list():
+	meeting = OrderedDict(sorted(meetings._pages.items())).values()[-1]
+	
+	data = {
+		'title': meeting.meta['meeting_title'],
+		'url': 'http://gtalug.org/meeting/%s/' % meeting.path,
+		'date': meeting.meta['meeting_datetime'].strftime("%v"),
+		'body': html2text.html2text(meeting.html)
+	}
+	
+	return Response(json.dumps(data), mimetype='application/json')
 
 @app.route('/gtalug.ics')
 def gtalug_ics():
