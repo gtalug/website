@@ -1,9 +1,23 @@
-meeting_title: "To Be Annouced"
+meeting_title: "Introduction to BOSH"
 meeting_datetime: 2014-08-12T19:30:00
 meeting_location: "George Vari Engineering and Computing Centre, Room 211"
-meeting_location_template: _locations/r-gvecc-211.html
+meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2013-11.html
+meeting_speakers:
+- "Adib Saikali"
+- "Aaron Jaecki"
 
-<div class="alert alert-info">
-GTALUG is currently looking for speakers for our 12th August meeting. If you are interested in speaking please contact our talks coordinator, <a href="mailto:scott-tlug-talks@ss.org" class="alert-link">Scott Sulivan</a>.
-</div>
+BOSH installs and updates software packages on large numbers of VMs over many IaaS providers (AWS, OpenStack, vSphere) with the absolute minimum of configuration changes.
+
+This presentation will be an introduction to BOSH with following agenda:
+
+* **Overivew** (30 minutes)
+	* What is BOSH?
+	* What problem does BOSH solve?
+	* What is the architecture of BOSH?
+	* Demo showing BOSH deploying a small distributed app.
+	* Examples of big distributed systems deployed using BOSH.
+* **Createing a Simple BOSH Release** (60 minutes)
+	* We will go through the process of building a simple BOSH relies to deploy a simple app requiring two VMs one running tomcat and one running postgres.
+
+Come and learn how to deploy complex distributed system to infrastructure as a service clouds.
