@@ -215,16 +215,19 @@ AddDefaultCharset utf-8
     
     RewriteRule ^wiki/$                     / [R,L]
     RewriteRule ^wiki/Main_Page$            / [R,L]
-    RewriteRule ^wiki/Mailing_lists$        /mailing-lists/ [R,L]
+    RewriteRule ^wiki/Mailing_lists$        /mailing-list/ [R,L]
     RewriteRule ^wiki/Manifesto$            /about/ [R,L]
     RewriteRule ^wiki/Code_of_Conduct$      /about/code-of-conduct/ [R,L]
     RewriteRule ^wiki/Events$               /meeting/ [R,L]
     RewriteRule ^wiki/Historical:Meetings$  /meeting/ [R,L]
     RewriteRule ^wiki/Meetings$             /meeting/ [R,L]
     RewriteRule ^wiki/Meetings:(.*)$        /meeting/$1 [R,L]
-    
     RewriteRule ^wiki/(.*)$                 /?old-wiki-page=$1 [B,R,L]
     RewriteRule ^mediawiki/(.*)$            / [R,L]
+	RewriteRule ^executive/wiki/Meetings/(.*)$	http://board.gtalug.org/$1/notes.html [R,L]
+	RewriteRule ^executive/(.*)% http://board.gtalug.org/?old-wiki-page=$1 [B,R,L]
+	RewriteRule ^index.php$					/ [R,L]
+	RewriteRule ^calendar.ics$				/gtalug.ics [R,L]
 </IfModule>
 
 # ------------------------------------------------------------------------------
