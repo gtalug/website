@@ -1,4 +1,4 @@
-meeting_title: "2014 September"
+meeting_title: "September 2014"
 meeting_datetime: 2014-09-09T19:30:00
 meeting_location: "George Vari Engineering and Computing Centre, Room 211"
 meeting_location_template: _locations/r-gvecc-211.html
