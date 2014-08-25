@@ -11,7 +11,7 @@ BOSH installs and updates software packages on large numbers of VMs over many Ia
 
 This presentation will be an introduction to BOSH with following agenda:
 
-* **Overivew** (30 minutes)
+* **Overview** (30 minutes)
 	* What is BOSH?
 	* What problem does BOSH solve?
 	* What is the architecture of BOSH?
