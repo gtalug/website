@@ -1,9 +1,10 @@
-meeting_title: "September 2014"
+meeting_title: "Short Talks"
 meeting_datetime: 2014-09-09T19:30:00
 meeting_location: "George Vari Engineering and Computing Centre, Room 211"
 meeting_location_template: _locations/r-gvecc-211.html
 meeting_schedule_template: _schedules/2013-11.html
 
-<div class="alert alert-info">
-GTALUG is currently looking for speakers for our September 2014 meeting. If you are interested in speaking please contact our talks coordinator, <a href="mailto:hi@gtalug.org" class="alert-link">Scott Sulivan</a>.
-</div>
+* **Myles Braithwaite**: CouchDB
+* **Scott Sulivan**: bonic
+* **Alex V.**: ZopeDB
+
