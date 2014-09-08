@@ -9,7 +9,7 @@ This list is for the discussion of Linux related issues, news, problems, and ide
 
 Off topic messages will not be tolerated or endorsed. First time offenders will be warned. Repeat offenders will be restricted from posting to the list for a one month period, or until such time that the list managers feel the offender is capable of following the rules.
 
-Please send an email to: <talk-subscribe@gtalug.org>.
+To subscribe send an email to: <talk-subscribe@gtalug.org>.
 
 Or signup using the HTML form here: <http://gtalug.org/mailman/listinfo/talk>.
 
@@ -17,6 +17,18 @@ Or signup using the HTML form here: <http://gtalug.org/mailman/listinfo/talk>.
 
 This is strictly an announcement list, not an interactive forum, from which you will receive important notices from the GTALUG administrators. Subscribing to this list will not automatically subscribe you to the GTALUG forum list.
 
-Please send a mail to: <announce-subscribe@gtalug.org>
+To subscribe send an email to: <announce-subscribe@gtalug.org>
 
 Or signup using the HTML form here: <http://gtalug.org/mailman/listinfo/announce>.
+
+### Operations Mailing List
+
+This mailing list is for people participating in operating GTALUG organization.
+
+To subscribe send an email to: <operations-subscribe@gtalug.org>.
+
+Or signup using the HTML form here: <<http://gtalug.org/mailman/listinfo/operations>.
+
+### Board Mailing List
+
+Invitation only list for active board members.
