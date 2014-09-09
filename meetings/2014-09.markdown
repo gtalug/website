@@ -5,6 +5,6 @@ meeting_location_template: _locations/r-gvecc-211.html
 meeting_schedule_template: _schedules/2013-11.html
 
 * **Myles Braithwaite**: CouchDB
-* **Scott Sulivan**: bonic
-* **Alex V.**: ZopeDB
+* **Scott Sullivan**: bonic
+* **Alex Volkov**: ZopeDB
 
