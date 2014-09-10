@@ -11,7 +11,7 @@ meeting_schedule_template: _schedules/2013-11.html
 * **ICANN & CAG** -- 5 minutes
 * **Board Elections** -- 20 minutes
 
-### ICANN
+### ICANN Update with Evan Leibovitch
 
 ICANN (or the Internet Corporation for Assigned Names and Numbers) is a non-profit organization that is responsible for the coordination of maintenance and methodology of the Internet's DNS system.
 
