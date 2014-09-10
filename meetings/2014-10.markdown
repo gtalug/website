@@ -1,0 +1,19 @@
+meeting_title: "AGM and ICANN"
+meeting_datetime: 2014-10-14T19:30:00
+meeting_location: "George Vari Engineering and Computing Centre, Room 211"
+meeting_location_template: _locations/r-gvecc-211.html
+meeting_schedule_template: _schedules/2013-11.html
+
+### Annual General Meeting
+
+* **GTALUG Update** -- 5 minutes
+* **Treasury Update** -- 5 minutes
+* **ICANN & CAG** -- 5 minutes
+* **Board Elections** -- 20 minutes
+
+### ICANN
+
+ICANN (or the Internet Corporation for Assigned Names and Numbers) is a non-profit organization that is responsible for the coordination of maintenance and methodology of the Internet's DNS system.
+
+Evan Leibovitch (Vice-Chair of the At-Large Advisory Committee at ICANN) will be talking about the latest developments at [ICANN](https://www.icann.org/).
+
