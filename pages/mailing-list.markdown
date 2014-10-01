@@ -13,6 +13,8 @@ To subscribe send an email to: <talk-subscribe@gtalug.org>.
 
 Or signup using the HTML form here: <http://gtalug.org/mailman/listinfo/talk>.
 
+If you are having issues subscribing to the mailing list please contact: <talk-owner@gtalug.org>.
+
 ### Announce Mailing List
 
 This is strictly an announcement list, not an interactive forum, from which you will receive important notices from the GTALUG administrators. Subscribing to this list will not automatically subscribe you to the GTALUG forum list.
@@ -21,13 +23,17 @@ To subscribe send an email to: <announce-subscribe@gtalug.org>
 
 Or signup using the HTML form here: <http://gtalug.org/mailman/listinfo/announce>.
 
+If you are having issues subscribing to the mailing list please contact: <announce-owner@gtalug.org>.
+
 ### Operations Mailing List
 
 This mailing list is for people participating in operating GTALUG organization.
 
 To subscribe send an email to: <operations-subscribe@gtalug.org>.
 
-Or signup using the HTML form here: <<http://gtalug.org/mailman/listinfo/operations>.
+Or signup using the HTML form here: <http://gtalug.org/mailman/listinfo/operations>.
+
+If you are having issues subscribing to the mailing list please contact: <operations-owner@gtalug.org>.
 
 ### Board Mailing List
 
