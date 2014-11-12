@@ -3,8 +3,6 @@ template: pages/mailing-list.html
 
 ### Talk List
 
-[Talk List Archive](http://gtalug.org/pipermail/talk/)
-
 This is a general purpose list - for Linux announcements, technical questions, and other information. Subscribing to this list will automatically subscribe you to the Announce list.
 
 This list is for the discussion of Linux related issues, news, problems, and ideas. This list is not anyone's personal soapbox. It is not for the discussion of political, social, or religious issues, bad jokes, personal rants or similar non Linux related discussion. Unsolicited commercial advertising will not be tolerated. Any subscribers who offers or requests pirated software, license keys or cracks, and similar will be dropped from the list without warning.
@@ -15,11 +13,11 @@ To subscribe send an email to: <talk-subscribe@gtalug.org>.
 
 Or signup using the HTML form here: <http://gtalug.org/mailman/listinfo/talk>.
 
+You can view the list archive here: <http://gtalug.org/pipermail/talk/>. 
+
 If you are having issues subscribing to the mailing list please contact: <talk-owner@gtalug.org>.
 
 ### Announce Mailing List
-
-[Announce List Archive](http://gtalug.org/pipermail/announce/)
 
 This is strictly an announcement list, not an interactive forum, from which you will receive important notices from the GTALUG administrators. Subscribing to this list will not automatically subscribe you to the GTALUG forum list.
 
@@ -27,11 +25,11 @@ To subscribe send an email to: <announce-subscribe@gtalug.org>
 
 Or signup using the HTML form here: <http://gtalug.org/mailman/listinfo/announce>.
 
+You can view the list archive here: <http://gtalug.org/pipermail/announce>
+
 If you are having issues subscribing to the mailing list please contact: <announce-owner@gtalug.org>.
 
 ### Operations Mailing List
-
-[Operations List Archive](http://gtalug.org/pipermail/operations/)
 
 This mailing list is for people participating in operating GTALUG organization.
 
