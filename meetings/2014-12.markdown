@@ -7,5 +7,5 @@ meeting_speaker: "TBA"
 
 
 <div class="alert alert-info">
-GTALUG is currently looking for speakers for the 9th December, 2014 meeting. If you are interested in speaking please contact our talks coordinator, <a href="mailto:hi@gtalug.org" class="alert-link">Scott Sulivan</a>.
+GTALUG is currently looking for speakers for the 9th December, 2014 meeting. If you are interested in speaking please contact our <a href="mailto:hi@gtalug.org" class="alert-link">talks coordinator</a>.
 </div>
