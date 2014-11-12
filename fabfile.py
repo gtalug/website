@@ -17,7 +17,7 @@ def install():
 	"""
 	
 	local('virtualenv env')
-	local('./env/bin/pip install -U -r requirments.txt')
+	local('./env/bin/pip install -U -r requirements.txt')
 
 @task
 @hosts('localhost')
