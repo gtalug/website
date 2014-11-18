@@ -5,10 +5,12 @@ meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2013-11.html
 meeting_speaker: "Bob Jonkman"
 
-**Bob Jonkman** (40mins)
+### **Bob Jonkman** (40mins)
 
 The hows, whys and why nots of Tor (The Onion Router).
 
-**Round the Room Q&A** (30mins)
+[Slides](http://sobac.com/gtalug/ "GTALUG: Short Talks on Crypto")
+
+### **Round the Room Q&A** (30mins)
 
 Questions from the attendess answered by attendees.
