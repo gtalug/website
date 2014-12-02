@@ -68,7 +68,7 @@ The usual meeting end time is 9pm.  If your presentation is too long, 9:15 is ou
 If you know your meeting time is going to run over or under, please let us know so we can prepare!
 
 
-=== After the meeting ===
+### After the meeting
 
 The group usually heads to a neighbourhood pub after the meeting.  You're welcome to join us.
 
