@@ -20,11 +20,11 @@ Before your talk, please provide the president with the following:
   - Optionally, a link to your presentation, website or other materials you would like to make available
   - A couple sentences describing the talk.
   - A "Bio", one or two sentences which say something about yourself relative to your talk.
-  - Your phone number in case there's an emergency or so that we can reach you if you're running late
+  - Your phone number in case there's an emergency or so that we can reach you in case you're running late
 
 Check the location and maps to be sure not to get lost!
 
-The description and bio will be used on our website, for our announcement and to introduce you as a speaker.
+The description and bio will be used on our website, in announcements and to introduce you as a speaker at the meeting.
 
 And please review the GTALUG Code of Conduct!
 
@@ -36,7 +36,7 @@ The audience is typically 15-30 people in a classroom environment.  The room has
   - A whiteboard.
   - There's no lecturn, but there's a desk for you to rest your computer.
 
-Note that there's no food or drink in the meeting space.  Bottled water is ok.
+Note that food and drink are not permitted in the meeting space.  Bottled water is ok.
 
 The meeting space is accessible, please let us know if you have any questions about the facilities.
 
@@ -60,7 +60,7 @@ We can arrange these things ahead of time if we know.
 We recommend you arrive at 7pm to socialize and set yourself up.  Talk start time is 7:30pm.  
 
 - The club membership will help you set up your projector and equipment.
-- The president will cover any club business before the meeting, then introduce you and your talk.
+- The president will start the meeting, cover any club business before the meeting, then introduce you and your talk.
 - Let people know if you would like to save comments for the end.
 
 The usual meeting end time is 9pm.  If your presentation is too long, 9:15 is our hard stop, but we'll warn you ahead of time.  If you run short, it leaves more time for questions or open discussion.
