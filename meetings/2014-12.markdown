@@ -1,11 +1,14 @@
-meeting_title: "To Be Annouced"
+meeting_title: "Maven and a Round Table Q&A Session"
 meeting_datetime: 2014-12-09T19:30:00
 meeting_location: "George Vari Engineering and Computing Centre, Room 211"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2013-11.html
-meeting_speaker: "TBA"
+meeting_speaker: "David Collier-Brown"
 
+### Maven
 
-<div class="alert alert-info">
-GTALUG is currently looking for speakers for the 9th December, 2014 meeting. If you are interested in speaking please contact our <a href="mailto:hi@gtalug.org" class="alert-link">talks coordinator</a>.
-</div>
+Make was written to avoid the problem of recompiling files that hadn't changed. It of course introduced a new set of problems , such as verbosity, and the solutions for them.  Those solutions in turn introduced another set of problems such as redundancy, and so on. Maven is one of the moderately successful attempts to solve most of them.
+
+### Round Table Q&A Session
+
+A Round Table Q&A Session is where we take questions from the audience, and the audience discusses and attempts to answer those questions from their own knowledge. It's a great way to meet fellow members of our community and discover the skill sets we each bring to the table.
