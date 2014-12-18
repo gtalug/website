@@ -1,9 +1,8 @@
-meeting_title: "Building a Community at Mozilla"
+meeting_title: "Social Engineering: Building A Community On Purpose"
 meeting_datetime: 2015-01-13T19:30:00
 meeting_location: "George Vari Engineering and Computing Centre, Room 211"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2013-11.html
-meeting_speaker: "Mike Hoy"
+meeting_speaker: "Mike Hoye"
 
-Mozilla community manager, on FSOSS material on social engineering building community on purpose, Bugzilla, getting contributors.
-
+Community building in Open Source is usually "organic" - meaning "accidental, unsupervised and messy". The bazaar has matured a lot in the last twenty years, though, and now we know a lot about how we can do better. Mike Hoye, Mozilla's Engineering Community Manager, would like to tell you what works, what doesn't, and why that's important.
