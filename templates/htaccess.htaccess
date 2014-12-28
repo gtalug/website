@@ -224,10 +224,15 @@ AddDefaultCharset utf-8
     RewriteRule ^wiki/Meetings:(.*)$        /meeting/$1 [R,L]
     RewriteRule ^wiki/(.*)$                 /?old-wiki-page=$1 [B,R,L]
     RewriteRule ^mediawiki/(.*)$            / [R,L]
-	RewriteRule ^executive/wiki/Meetings/(.*)$	http://board.gtalug.org/$1/notes.html [R,L]
-	RewriteRule ^executive/(.*)% http://board.gtalug.org/?old-wiki-page=$1 [B,R,L]
-	RewriteRule ^index.php$					/ [R,L]
-	RewriteRule ^calendar.ics$				/gtalug.ics [R,L]
+    RewriteRule ^executive/wiki/Meetings/(.*)$ http://board.gtalug.org/$1/notes.html [R,L]
+    RewriteRule ^executive/(.*)% http://board.gtalug.org/?old-wiki-page=$1 [B,R,L]
+    RewriteRule ^index.php$					/ [R,L]
+    RewriteRule ^calendar.ics$				/gtalug.ics [R,L]
+    
+    RewriteCond %{HTTP_HOST} ^www\.gtalug\.info [NC,OR]
+    RewriteCond %{HTTP_HOST} ^gtalug\.info [NC,OR]
+    RewriteCond %{HTTP_HOST} ^tlug\.ss\.org [NC]
+    RewriteRule ^(.*)$ http://gtalug.org/$1 [R,L]
 </IfModule>
 
 # ------------------------------------------------------------------------------
@@ -461,7 +466,7 @@ AddDefaultCharset utf-8
 
 # <IfModule mod_rewrite.c>
 #    RewriteCond %{SERVER_PORT} !^443
-#    RewriteRule ^ https://example-domain-please-change-me.com%{REQUEST_URI} [R=301,L]
+#    RewriteRule ^ https://gtalug.org%{REQUEST_URI} [R=301,L]
 # </IfModule>
 
 # ------------------------------------------------------------------------------
