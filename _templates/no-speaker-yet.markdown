@@ -1,9 +1,9 @@
 meeting_title: "To Be Annouced"
 meeting_datetime: ####-##-##T19:30:00
-meeting_location: "George Vari Engineering and Computing Centre, Room 211"
-meeting_location_template: _locations/r-gvecc-211.html
-meeting_schedule_template: _schedules/2013-11.html
 meeting_speaker: "TBA"
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2013-11.html
 
 <div class="alert alert-info">
 GTALUG is currently looking for speakers for our ###### ####
