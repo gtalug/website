@@ -13,7 +13,9 @@
 			"less/style.less"
 		%}
 		<link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}">
-		{%- endassets %}
+    {%- endassets %}
+
+    <link rel="canonical" type="text/html" href="http://gtalug.org{{ request.path }}">
 		
 		{% block extra_head %}{% endblock extra_head %}
 	</head>
