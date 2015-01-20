@@ -5,9 +5,9 @@ The [GTALUG](http://gtalug.org/ "Greater Toronto Area Linux User Group") web sit
 
 ## Develop
 
-Install `python-virtualenv` and `fabric‎`:
+Install `python-virtualenv` and `fabric`:
 
-	$ apt-get install python-virtualenv‎
+	$ apt-get install python-virtualenv
 	$ pip install fabric
 
 Then setup the virutal envoirment:
@@ -25,3 +25,5 @@ To run an local server for development:
 To deploy the web site:
 
 	$ fab deploy
+
+
