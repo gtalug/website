@@ -84,8 +84,8 @@ def api_meeting_list():
 			'@context': 'http://schema.org',
 			'@type': 'Event',
 			'name': m.meta['meeting_title'],
-			'url': 'http://gtalug.org/meeting/%s/' % meeting.path,
-			'startDate': meeting.meta['meeting_datetime'].strftime("%v"),
+			'url': 'http://gtalug.org/meeting/%s/' % m.path,
+			'startDate': m.meta['meeting_datetime'].strftime("%v"),
 		},]
 	
 	return Response(json.dumps(data), mimetype='application/json')
@@ -100,7 +100,7 @@ def api_meeting_detail(slug):
 		'name': m.meta['meeting_title'],
 		'startDate': m.meta['meeting_datetime'].strftime("%v"),
 		'url': 'http://gtalug.org/meeting/%s/' % m.path,
-		'description': html2text.html2text(meeting.html),
+		'description': html2text.html2text(m.html),
 	}
 	
 	if m.meta.get('meeting_location', None):
@@ -211,6 +211,7 @@ def page_list():
 	for m in meetings:
 		yield 'meeting_detail', { 'slug': m.path }
 		yield 'meeting_detail_ics', { 'slug': m.path }
+		yield 'api_meeting_detail', { 'slug': m.path }
 
 if __name__ == '__main__':
 	if len(sys.argv) > 1 and sys.argv[1] == "build":
