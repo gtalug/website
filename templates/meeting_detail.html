@@ -4,11 +4,15 @@
 
 {% block nav_meetings %}<li class="active"><a href="{{ url_for('meeting_list') }}">Meetings</a></li>{% endblock %}
 
+{% block extra_head %}
+<script src="{{ url_for('api_meeting_detail', slug=meeting.path) }}" type="application/ld+json"></script>
+{% endblock extra_head %}
+
 {% block page_body %}
 
 <ol class="breadcrumb">
-	<li><a href="/">Home</a></li>
-	<li><a href="../">Meetings</a></li>
+	<li><a href="{{ url_for('index') }}">Home</a></li>
+	<li><a href="{{ url_for('meeting_list') }}">Meetings</a></li>
 	<li class="active">{{ meeting.meeting_title | typogrify | safe }}</li>
 </ol>
 

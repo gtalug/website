@@ -60,15 +60,51 @@ def htaccess():
 	return send_from_directory(TEMPLATE_ROOT, 'htaccess.htaccess')
 
 @app.route('/api/upcoming_meeting.json')
-def api_meeting_list():
+def api_upcoming_meeting():
 	meeting = OrderedDict(sorted(meetings._pages.items())).values()[-1]
 	
 	data = {
 		'title': meeting.meta['meeting_title'],
 		'url': 'http://gtalug.org/meeting/%s/' % meeting.path,
 		'date': meeting.meta['meeting_datetime'].strftime("%v"),
-		'body': html2text.html2text(meeting.html)
+		'body': html2text.html2text(meeting.html),
+		'apiUrl': 'http://gtalug.org/api/meeting/%s/' % meeting.path,
 	}
+	
+	return Response(json.dumps(data), mimetype='application/json')
+
+@app.route('/api/meetings.json')
+def api_meeting_list():
+	meeting_list = OrderedDict(sorted(meetings._pages.items())).values()[:10]
+	
+	data = []
+	
+	for m in meetings:
+		data += [{
+			'@context': 'http://schema.org',
+			'@type': 'Event',
+			'name': m.meta['meeting_title'],
+			'url': 'http://gtalug.org/meeting/%s/' % meeting.path,
+			'startDate': meeting.meta['meeting_datetime'].strftime("%v"),
+		},]
+	
+	return Response(json.dumps(data), mimetype='application/json')
+
+@app.route('/api/meeting/<path:slug>.json')
+def api_meeting_detail(slug):
+	m = meetings.get_or_404(slug)
+	
+	data = {
+		'@context': 'http://schema.org',
+		'@type': 'Event',
+		'name': m.meta['meeting_title'],
+		'startDate': m.meta['meeting_datetime'].strftime("%v"),
+		'url': 'http://gtalug.org/meeting/%s/' % m.path,
+		'description': html2text.html2text(meeting.html),
+	}
+	
+	if m.meta.get('meeting_location', None):
+	    data['location'] = m.meta['meeting_location']
 	
 	return Response(json.dumps(data), mimetype='application/json')
 

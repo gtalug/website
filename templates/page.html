@@ -5,7 +5,7 @@
 {% block page_body %}
 	{% block breadcrumb %}
 	<ol class="breadcrumb">
-		<li><a href="/">Home</a></li>
+		<li><a href="{{ url_for('index') }}">Home</a></li>
 		<li class="active">{{ page.title | typogrify | safe }}</li>
 	</ol>
 	{% endblock %}
