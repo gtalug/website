@@ -8,6 +8,5 @@ meeting_schedule_template: _schedules/2013-11.html
 <div class="alert alert-info">
 GTALUG is currently looking for speakers for our ###### ####
 meeting. If you are interested in speaking please contact our
-speaker coordinator,
-<a href="mailto:speaker-coordinator@gtalug.org" class="alert-link">Scott Sulivan</a>.
+<a href="mailto:speaker-coordinator@gtalug.org" class="alert-link">speaker coordinator</a>.
 </div>
