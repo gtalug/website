@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /mailman/admin
 Disallow: /mailman/create
-
+Disallow: /pipermail/operations
