@@ -1,5 +1,10 @@
 meeting_title: "Short Talks on Productivity Tools"
 meeting_datetime: 2015-03-10T19:30:00
+meeting_speakers:
+- "Alex Volkov"
+- "Christopher Browne"
+- "Scott Sullivan"
+- "Myles Braithwaite"
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-03.html
