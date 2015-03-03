@@ -11,5 +11,5 @@ meeting_schedule_template: _schedules/2015-03.html
 
 * ownCloud - **Alex Volkov**
 * `todo.txt` - **Christopher Browne**
-* `todo.txt` Touch - **Scott Sullivan**
-* `jrnl` - **Myles Braithwaite**
+* `todo.txt` Touch - **Scott Sullivan** - A jaunt through using todo.txt on your mobile devices. Learn the basic and how to sync it with any todo.txt desktop tools you may be using.
+* `jrnl` - **Myles Braithwaite** - A command line journal application.
