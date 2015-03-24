@@ -1,12 +1,14 @@
-meeting_title: "To Be Annouced"
+meeting_title: "LessCSS and a Round Table Q&A Session"
 meeting_datetime: 2015-04-14T19:30:00
-meeting_speaker: "TBA"
+meeting_speaker: "Myles Braithwaite"
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-02.html
 
-<div class="alert alert-info">
-GTALUG is currently looking for speakers for our April 2015
-meeting. If you are interested in speaking please contact our
-<a href="mailto:speaker-coordinator@gtalug.org" class="alert-link">speaker coordinator</a>.
-</div>
+### LessCSS
+
+LessCSS extends the CSS language to make it acutally useable by adding features like variables, mixins, funcations, and a bunch of other techiques that allow you to make your stylesheets more maintainable, themeable, and extendable.
+
+### Round Table Q&A Session
+
+A Round Table Q&A Session is where we take questions from the audience, and the audience discusses and attempts to answer those questions from their own knowledge. It's a great way to meet fellow members of our community and discover the skill sets we each bring to the table.
