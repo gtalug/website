@@ -7,7 +7,7 @@ meeting_schedule_template: _schedules/2015-02.html
 
 ### LessCSS
 
-LessCSS extends the CSS language to make it acutally useable by adding features like variables, mixins, funcations, and a bunch of other techiques that allow you to make your stylesheets more maintainable, themeable, and extendable.
+LessCSS extends the CSS language to make it actually useable by adding features like variables, mixins, functions, and a bunch of other techniques that allow you to make your stylesheets more maintainable, themeable, and extendible.
 
 ### Round Table Q&A Session
 
