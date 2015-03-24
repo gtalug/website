@@ -13,7 +13,7 @@ To subscribe send an email to: <talk-subscribe@gtalug.org>.
 
 Or signup using the HTML form here: <http://gtalug.org/mailman/listinfo/talk>.
 
-You can view the list archive here: <http://gtalug.org/pipermail/talk/>. 
+You can view the list archive here: <http://gtalug.org/pipermail/talk/>.
 
 If you are having issues subscribing to the mailing list please contact: <talk-owner@gtalug.org>.
 
@@ -42,3 +42,12 @@ If you are having issues subscribing to the mailing list please contact: <operat
 ### Board Mailing List
 
 Invitation only list for active board members.
+
+### Legacy Mailing List
+
+This is an old TLUG mailing list from July 2003 until October 2014.
+
+You can view the list archive here: <http://gtalug.org/pipermail/legacy/>
+
+This is read-only list there is no subscription available.
+
