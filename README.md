@@ -5,9 +5,9 @@ The [GTALUG](http://gtalug.org/ "Greater Toronto Area Linux User Group") web sit
 
 ## Develop
 
-Install `python-virtualenv` and `fabric`:
+Install `python-virtualenv`, `node-less` and `fabric` and :
 
-	$ apt-get install python-virtualenv
+	$ apt-get install python-virtualenv node-less
 	$ pip install fabric
 
 Then setup the virutal envoirment:
