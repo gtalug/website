@@ -9,11 +9,16 @@ Markdown==2.3.1
 MarkupSafe==0.18
 PyYAML==3.10
 Werkzeug==0.9.4
+argparse==1.2.1
 ecdsa==0.10
+html2text==2015.2.18
 itsdangerous==0.23
 paramiko==1.12.0
 pycrypto==2.6.1
+python-dateutil==2.4.1
+six==1.9.0
 smartypants==1.8.3
 typogrify==2.0.2
+vobject==0.6.6
 webassets==0.8
 wsgiref==0.1.2
