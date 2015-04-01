@@ -7,7 +7,9 @@ import datetime
 from collections import OrderedDict
 from os.path import abspath, dirname, join
 
-from flask import Flask, Response, render_template, abort, send_from_directory, request
+from flask import (
+    Flask, Response, render_template,
+    abort, send_from_directory, request)
 
 from flask_frozen import Freezer
 from flask_flatpages import FlatPages, pygmented_markdown
