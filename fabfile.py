@@ -14,11 +14,8 @@ env.build_path = os.path.abspath('./build/')
 @hosts('localhost')
 def install():
     """
-    This will build the virtual envoirument and install all the Python
-    dependencies.
+    This installs all the Python dependencies.
     """
-
-    local('virtualenv env')
     local('./env/bin/pip install -U -r requirements.txt')
 
 
