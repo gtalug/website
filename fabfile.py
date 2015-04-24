@@ -2,9 +2,10 @@
 
 import os
 
-from fabric.utils import error
+from fabric.utils import abort
 from fabric.contrib.project import rsync_project
 from fabric.api import env, local, task, hosts, runs_once, lcd, hide
+from fabric.context_managers import settings
 
 env.hosts = ['penguin.gtalug.org', ]
 env.use_ssh_config = True
@@ -65,10 +66,19 @@ def deploy():
     )
     register_deployment(".")
 
-@task
-def git_check():
-    if not local('git diff --quiet --exit-code --cached', capture=True):
-        return error('Please commit your changes before deploying.')
+def check_working_dir_clean():
+    """Aborts if not everything has been committed."""
+    # Inspiration:
+    # http://stackoverflow.com/questions/5139290/how-to-check-if-theres-nothing-to-be-committed-in-the-current-branch
+    with settings(warn_only=True):
+        if not local('git diff --stat --exit-code').succeeded:
+            abort('You have unstaged changes: to ignore, run with check_clean=no')
+        if not local('git diff --cached --stat --exit-code').succeeded:
+            abort('Your index contains uncommitted changes: to ignore, run with check_clean=no')
+    
+        r = local('git ls-files --other --exclude-standard --directory', capture=True )
+        if r != '':
+            abort('Untracked files exist: to ignore, run with check_clean=no')
 
 @task 
 @runs_once 
