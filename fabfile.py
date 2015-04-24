@@ -3,7 +3,7 @@
 import os
 
 from fabric.contrib.project import rsync_project
-from fabric.api import env, local, task, hosts
+from fabric.api import env, local, task, hosts, runs_once, lcd
 
 env.hosts = ['penguin.gtalug.org', ]
 env.use_ssh_config = True
@@ -14,11 +14,8 @@ env.build_path = os.path.abspath('./build/')
 @hosts('localhost')
 def install():
     """
-    This will build the virtual envoirument and install all the Python
-    dependencies.
+    This installs all the Python dependencies.
     """
-
-    local('virtualenv env')
     local('./env/bin/pip install -U -r requirements.txt')
 
 
@@ -50,7 +47,6 @@ def build():
     clean()
     local('./env/bin/python website.py build')
 
-
 @task
 @hosts('penguin.gtalug.org')
 def deploy():
@@ -66,3 +62,15 @@ def deploy():
         extra_opts='--exclude=".DS_Store" --exclude="static/less/" \
  --exclude="static/.webassets-cache/" --exclude="static/js/less-1.5.0.min.js"'
     )
+
+@task 
+@runs_once 
+def register_deployment(git_path): 
+    with(lcd(git_path)): 
+        local("""
+            curl https://opbeat.com/api/v1/organizations/b33f729826be44e5b889ae0a8ec88eea/apps/049496b911/releases/ \
+                -H "Authorization: Bearer 609dd34cebcf1f830036d102cf1be8d811c70a91" \ 
+                -d rev=`git log -n 1 --pretty=format:%H` \ 
+                -d branch=`git rev-parse --abbrev-ref HEAD` \ 
+                -d status=completed
+        """)
