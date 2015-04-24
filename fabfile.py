@@ -55,7 +55,7 @@ def deploy():
     """
     This will deploy the web site to the GTALUG server.
     """
-
+    check_working_dir_clean()
     build()
     rsync_project(
         local_dir=env.build_path + "/",
