@@ -2,8 +2,9 @@
 
 import os
 
+from fabric.utils import error
 from fabric.contrib.project import rsync_project
-from fabric.api import env, local, task, hosts, runs_once, lcd
+from fabric.api import env, local, task, hosts, runs_once, lcd, hide
 
 env.hosts = ['penguin.gtalug.org', ]
 env.use_ssh_config = True
@@ -62,15 +63,16 @@ def deploy():
         extra_opts='--exclude=".DS_Store" --exclude="static/less/" \
  --exclude="static/.webassets-cache/" --exclude="static/js/less-1.5.0.min.js"'
     )
+    register_deployment(".")
+
+@task
+def git_check():
+    if not local('git diff --quiet --exit-code --cached', capture=True):
+        return error('Please commit your changes before deploying.')
 
 @task 
 @runs_once 
-def register_deployment(git_path): 
-    with(lcd(git_path)): 
-        local("""
-            curl https://opbeat.com/api/v1/organizations/b33f729826be44e5b889ae0a8ec88eea/apps/049496b911/releases/ \
-                -H "Authorization: Bearer 609dd34cebcf1f830036d102cf1be8d811c70a91" \ 
-                -d rev=`git log -n 1 --pretty=format:%H` \ 
-                -d branch=`git rev-parse --abbrev-ref HEAD` \ 
-                -d status=completed
-        """)
+def register_deployment(git_path):
+    with hide('warnings'):
+        with(lcd(git_path)): 
+            local("curl https://opbeat.com/api/v1/organizations/b33f729826be44e5b889ae0a8ec88eea/apps/049496b911/releases/ -H 'Authorization: Bearer 609dd34cebcf1f830036d102cf1be8d811c70a91' -d rev=`git log -n 1 --pretty=format:%H` -d branch=`git rev-parse --abbrev-ref HEAD` -d status=completed")
