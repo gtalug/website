@@ -1,0 +1,8 @@
+meeting_title: "OpenStreetMap"
+meeting_datetime: 2015-04-14T19:30:00
+meeting_speaker: "Stewart Russell"
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2015-04.html
+
+OpenStreetMap is built by a community of mappers that contribute and maintain an open data set of roads, trails, cafes. buildings, railway stations, and much more.
