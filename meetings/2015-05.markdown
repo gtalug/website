@@ -3,6 +3,6 @@ meeting_datetime: 2015-05-12T19:30:00
 meeting_speaker: "Stewart Russell"
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
-meeting_schedule_template: _schedules/2015-04.html
+meeting_schedule_template: _schedules/2015-05.html
 
 [OpenStreetMap](http://www.openstreetmap.org/) is more than just a web mapping platform. It's a comprehensive, community-maintained map/geodatabase of the world that you can hack on. Since the last GTALUG talk on OSM over five years ago, it's grown a lot, and developed a huge community of mappers, developers and data users. In this talk, we'll discuss the basics of using OSM, how it survived a major licence change with only a little drama, and how it succeeds as a community.
