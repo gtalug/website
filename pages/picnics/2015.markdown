@@ -15,7 +15,7 @@ template: pages/events.html
 			GTALUG is having the annual Linux in the Park Potluck this year at Dufferin Grove Park on 25th July at 2pm.
 		</p>
 		<p>Things we will provide: Plates,  Cutlery, Serviettes, Cups, and Garbage bags.</p>
-		<p>Things you might want to bring: chairs, tasty beverages (that are non-alcoholic, as the city prohibits alcoholic beverages in the park), food stuffs that you’d like to share and enjoy, tarp/blanket, sunscreen, hats, things to help survive the warmth of the Canadian Wilderness.</p>
+		<p>Things you might want to bring: chairs, tasty beverages (that are non-alcoholic, as the city prohibits alcoholic beverages in the park), food stuffs that you would like to share and enjoy, tarp/blanket, sunscreen, hats, things to help survive the warmth of the Canadian Wilderness.</p>
 		<p>We will doing this in a pot-luck style.  Thus, please bring enough food and drink for yourself and your guests, and try to bring enough to share with others in the group.</p>
 		<p>Note that if you forget anything you needed, Dufferin Mall is across the street, featuring a supermarket (No-Frills) department store (WalMart), as well as other specialty stores.</p>
 	</section>
