@@ -4,7 +4,7 @@ GTALUG sometimes hosts [Key signing parties](https://en.wikipedia.org/wiki/Key_s
 
 The next one is on:
 
-* [11 March, 2014](http://gtalug.org/meeting/2014-03/) at 7:30 p.m.
+* [9 June, 2015](http://gtalug.org/meeting/2015-06/) at 7:30 p.m.
 
 ### What you will need to do to participate
 
