@@ -1,11 +1,19 @@
 title: Code of Conduct
 template: pages/about-sub.html
 
-<p class="lead">We want a productive happy community that can welcome new ideas, improve every process every year, and foster collaboration between individuals with differing needs, interests and skills.</p>
+<p class="lead">We want a productive happy community that can welcome new ideas, improve every process every year, and foster collaboration between individuals with differing
+needs, interests and skills.</p>
 
-We gain strength from diversity, and actively seek participation from those who enhance it. This code of conduct exists to ensure that diverse groups collaborate to mutual advantage and enjoyment. We will challenge prejudice that could jeopardize the participation of any person in the community.
+We gain strength from diversity, and actively seek participation from those who
+enhance it. This code of conduct exists to ensure that diverse groups
+collaborate to mutual advantage and enjoyment. We will challenge prejudice that
+could jeopardize the participation of any person in the community.
 
-The Code of Conduct governs *how we behave in public or in private whenever the Linux community will be judged by our actions*. We expect it to be honored by everyone who represents the community officially or informally, claims affiliation, or participates directly. It applies to activities online or offline.
+The Code of Conduct governs *how we behave in public or in private whenever the
+Linux community will be judged by our actions*. We expect it to be honored by
+everyone who represents the community officially or informally, claims
+affiliation, or participates directly. It applies to activities online or
+offline.
 
 We invite anybody to participate. Our community is open.
 
@@ -41,7 +49,7 @@ Asking questions early avoids many problems later, so questions are encouraged, 
 
 We are dedicated to creating and preserving an inclusive, nondiscriminatory environment, regardless of age, gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, or religion.
 
-Accessibility is an important part of being inclusive. We favor accessible venues, try to document accessibility issues and welcome suggestions for accessible alternatives to any non-accessible venue.
+Accessibility is an important part of being inclusive. We favor accessibility, and where accessibility issues are identified, we strive to document and  communicate them.  When accessible alternatives to any tools or venues are brought to our attention, we investigate them to the best of our ability.
 
 ### Harassment
 
@@ -63,7 +71,7 @@ Piracy cannot be tolerated. If you're unsure about the intellectual property rig
 
 Explicit sexual topics, sexual touching, or sexual imagery are not appropriate for any event or related function. It is always off topic, it is not inclusive or sensitive to all the different groups which may be present at events.
 
-If an event will by its nature have sexual topics, touching or imagery, the Linux community's name, GTALUG or TLUG should should not be included and invitations should not be sent to the official public channels of the community.
+If a third party event will knowingly encourage or participate in any of the above activities, the community's name, GTALUG or TLUG should not be included and invitations should not be sent using the official public channels.
 
 ### Violating the Code of Conduct
 
@@ -71,7 +79,7 @@ When handling potential issues of harassment or unprofessionalism, please rememb
 
 Participants violating these rules may be asked to leave the event by organizing members, or asked to no longer participate in any events by vote of the executive committee.
 
-This is not a zero tolerance policy. The members of the community are not trained judges, trained councilors, police officers or security guards. Zero tolerance places the burden of immediate judgement on the people involved, and ignores the important values of education and mutual respect in the community.
+This is not a zero tolerance policy. Zero tolerance places the burden of immediate judgement on the people involved, and ignores the important values of education and mutual respect in the community.
 
 We expect participants to follow these rules at all venues and related social events. The rules should not be seen as a burden, but as a point of pride of the community.
 
