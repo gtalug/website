@@ -7,4 +7,4 @@ meeting_schedule_template: _schedules/2015-06.html
 
 Puppet is a tool for doing configuration management. This talk will go over what puppet is, what it can do, and how to do it. There is more than one way to do it, some lessons have been learned in the field and from the community.
 
-The talk will be based on [Alessandro Franceschi's fine  Puppet Tutorial](http://www.example42.com/tutorials/PuppetTutorial/). Not all slides will be discussed (developer oriented slides will be skipped), and some topics not mentioned in the URL will be added (work flow topics). I intend for this talk to be a dialog and support "engaged" learning, feel free to interrupt.
+The talk will be based on [Alessandro Franceschi's fine  Puppet Tutorial](http://www.example42.com/tutorials/PuppetTutorial/). Not all slides will be discussed (developer oriented slides will be skipped), and some topics not mentioned in the URL will be added (work flow topics). David intend for this talk to be a dialog and support "engaged" learning, feel free to interrupt.
