@@ -1,0 +1,8 @@
+meeting_title: "Samba"
+meeting_speaker: "William Murrithy"
+meeting_datetime: 2015-07-11T19:30:00
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2015-06.html
+
+Samba is an open soure re-implementation of the SMB (also known as CIFS) network protocol.
