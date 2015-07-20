@@ -2,7 +2,7 @@
 
 var map = L.map('map', {
     // center: [43.659, -79.381],
-    center: [43.65911684437622, -79.3763279914856],
+    center: [43.6577,-79.3773],
     zoom: 16,
     touchZoom: false,
     scrollWheelZoom: false
@@ -21,6 +21,6 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     accessToken: 'pk.eyJ1IjoibXlsZXMiLCJhIjoiYzM4NjE3NjA4ZjYxYzJhMzJjNjU3MzcxZWEyYzRhMGIifQ.V_-nhDa5NoL9uhK7OqUOew'
 }).addTo(map);
 
-var marker = L.marker([43.65911684437622, -79.3763279914856], {icon: mapIcon}).addTo(map);
+var marker = L.marker([43.6577,-79.3773], {icon: mapIcon}).addTo(map);
 
 marker.bindPopup("<strong>George Vari Engineering and Computing Centre</strong><br/>245 Church Street, Room 203.").openPopup();
