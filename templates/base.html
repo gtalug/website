@@ -9,7 +9,7 @@
 		
 		<title>{% block page_title %}GTALUG{% endblock page_title %}</title>
 		
-		{%- assets filters="less", output="css/packed.css",
+		{%- assets filters="less", output="packed.css",
 			"less/style.less"
 		%}
 		<link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}">
@@ -66,6 +66,9 @@
 						{% block footer %}{% endblock %}
 					</footer>
 				</main>
+                {% assets output="packed.js", "js/leaflet.js", "js/script.js" %}
+                <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+                {% endassets %}
 			</div>
 		</div>
 	</body>

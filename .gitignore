@@ -2,7 +2,7 @@
 
 # Directories to ignore
 env/
-static/css/
+static/packed.*
 static/.webassets-cache/
 
 # C extensions
