@@ -9,9 +9,9 @@ var map = L.map('map', {
 });
 
 var mapIcon = L.icon({
-    iconUrl: '/static/img/leaflet/market-icon.png',
-    iconRetinaUrl: '/static/img/leaflet/market-icon-2x.png',
-    shadowUrl: '/static/img/leaflet/market-shadow.png'
+    iconUrl: '/static/img/leaflet/marker-icon.png',
+    iconRetinaUrl: '/static/img/leaflet/marker-icon-2x.png',
+    shadowUrl: '/static/img/leaflet/marker-shadow.png'
 })
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
