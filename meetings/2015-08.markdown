@@ -1,4 +1,4 @@
-meeting_title: "Samba Progress Over the Last 5 Six Years"
+meeting_title: "Samba Progress Over the Last Six Years"
 meeting_speaker: "William Murrithy"
 meeting_datetime: 2015-08-11T19:30:00
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
