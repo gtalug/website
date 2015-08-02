@@ -66,10 +66,25 @@
 						{% block footer %}{% endblock %}
 					</footer>
 				</main>
-                {% assets output="packed.js", "js/leaflet.js", "js/script.js" %}
-                <script type="text/javascript" src="{{ ASSET_URL }}"></script>
-                {% endassets %}
 			</div>
 		</div>
+        <!-- Piwik -->
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="//piwik.gtalug.org/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', 2]);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <noscript><p><img src="//piwik.gtalug.org/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+        <!-- End Piwik Code -->
+        {% assets output="packed.js", "js/leaflet.js", "js/script.js" %}
+        <script type="text/javascript" src="{{ ASSET_URL }}"></script>
+        {% endassets %}
 	</body>
 </html>
