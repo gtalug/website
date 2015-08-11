@@ -1,8 +1,12 @@
-meeting_title: "Samba Progress Over the Last Six Years"
-meeting_speaker: "William Murrithy"
+meeting_title: "Round Table Q&A Session"
 meeting_datetime: 2015-08-11T19:30:00
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-06.html
 
-The talk is a continuation of William's previous talk on Samba in 2009. It looks at how close samba has closed the gap between AD and samba with samba 4, what's still left, packaging/deployment improvements and a demo of the samba deployment and and management.
+<div class="alert alert-info">
+William had to reschdule his talk on Samba to the <a href="/meeting/2015-09/" class="alert-link">Setpember meeting</a>.
+</div>
+
+
+A Round Table Q&A Session is where we take questions from the audience, and the audience discusses and attempts to answer those questions from their own knowledge. It's a great way to meet fellow members of our community and discover the skill sets we each bring to the table.

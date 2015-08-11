@@ -1,0 +1,8 @@
+meeting_title: "Samba Progress Over the Last Six Years"
+meeting_speaker: "William Murrithy"
+meeting_datetime: 2015-09-08T19:30:00
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2015-06.html
+
+The talk is a continuation of William's previous talk on Samba in 2009. It looks at how close samba has closed the gap between AD and samba with samba 4, what's still left, packaging/deployment improvements and a demo of the samba deployment and and management.
