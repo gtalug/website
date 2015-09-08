@@ -94,6 +94,7 @@ def api_meeting_list():
             '@type': 'Event',
             'name': m.meta['meeting_title'],
             'url': 'http://gtalug.org/meeting/%s/' % m.path,
+            'sameAs': 'http://gtalug.org/api/meeting/%s.json' % m.path,
             'startDate': m.meta['meeting_datetime'].strftime("%v"),
         }, ]
 
@@ -111,6 +112,16 @@ def api_meeting_detail(slug):
         'startDate': m.meta['meeting_datetime'].strftime("%v"),
         'url': 'http://gtalug.org/meeting/%s/' % m.path,
         'description': html2text.html2text(m.html),
+        'offer': {
+            '@type': 'Offer',
+            'category': 'http://schema.org/LeisureTimeActivity'
+        },
+        'organizer': {
+            '@type': 'Organization',
+            'name': 'GTALUG',
+            'legalName': 'Greater Toronto Area Linux User Group',
+            'image': 'http://gtalug.org/static/images/gtalug-logo.png',
+        }
     }
 
     if m.meta.get('meeting_location', None):
