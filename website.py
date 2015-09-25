@@ -69,14 +69,15 @@ def htaccess():
 
 @app.route('/api/upcoming_meeting.json')
 def api_upcoming_meeting():
-    meeting = OrderedDict(sorted(meetings._pages.items())).values()[-1]
+    m = OrderedDict(sorted(meetings._pages.items())).values()[-1]
 
     data = {
-        'title': meeting.meta['meeting_title'],
-        'url': 'http://gtalug.org/meeting/%s/' % meeting.path,
-        'date': meeting.meta['meeting_datetime'].strftime("%v"),
-        'body': html2text.html2text(meeting.html),
-        'apiUrl': 'http://gtalug.org/api/meeting/%s/' % meeting.path,
+        '@context': 'http://schema.org',
+        '@type': 'Event',
+        'name': m.meta['meeting_title'],
+        'url': 'http://gtalug.org/meeting/%s/' % m.path,
+        'sameAs': 'http://gtalug.org/api/meeting/%s.json' % m.path,
+        'startDate': m.meta['meeting_datetime'].strftime("%v"),
     }
 
     return Response(json.dumps(data), mimetype='application/json')
