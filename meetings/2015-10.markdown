@@ -1,0 +1,8 @@
+meeting_title: "Linux on Enterprise 64-bit ARM Platforms"
+meeting_speaker: "Chris Tyler"
+meeting_datetime: 2015-10-13T19:30:00
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2015-10.html
+
+A new architecture has arrived! 64-bit ARM promises high-performance, low-energy, extremely dense server computing systems. This is the first time in the history of computing that a major architecture has launched with Linux as the premier operating system. This talk will discuss the hard challenges presented by the Aarch64 architecture and the opportunities it creates.
