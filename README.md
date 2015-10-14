@@ -3,6 +3,8 @@ website
 
 The [GTALUG](http://gtalug.org/ "Greater Toronto Area Linux User Group") web site.
 
+* [Issues](https://github.com/gtalug/infrastructure/issues?q=is%3Aopen+is%3Aissue+label%3A%22Web+Sites%22)
+
 ## Develop
 
 Install git and clone this repository
