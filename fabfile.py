@@ -50,7 +50,7 @@ def build():
     local('./env/bin/python website.py build')
 
 @task
-@hosts('penguin.gtalug.org')
+@hosts('deploy@penguin.gtalug.org')
 def deploy():
     """
     This will deploy the web site to the GTALUG server.
