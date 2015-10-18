@@ -4,7 +4,7 @@ import os
 
 from fabric.utils import abort
 from fabric.contrib.project import rsync_project
-from fabric.api import env, local, task, hosts, runs_once, lcd, hide
+from fabric.api import env, local, task, hosts, runs_once, lcd, hide, run
 from fabric.context_managers import settings
 
 env.user = 'deploy'
@@ -67,6 +67,21 @@ def deploy():
  --exclude="static/.webassets-cache/" --exclude="static/js/less-1.5.0.min.js"'
     )
     register_deployment(".")
+
+
+@task
+@hosts('penguin.gtalug.org')
+def remote_build():
+    """
+    Build the web site on the server and deploy it their.
+    """
+    if run('test -d %s' % env.build_path):
+        run('rm -fr %s/*' % env.build_path)
+    if run('test -d ./env/').failed:
+            run('virtualenv ./env')
+            run('./env/bin/pip install -U -r requirements.txt')
+    run('./env/bin/python website.py build')
+    run('cp -r %s/* /srv/www/org_gtalug_www/html/' % env.build_path)
 
 
 def check_working_dir_clean():
