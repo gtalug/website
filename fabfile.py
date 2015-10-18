@@ -4,7 +4,7 @@ import os
 
 from fabric.utils import abort
 from fabric.contrib.project import rsync_project
-from fabric.api import env, local, task, hosts, runs_once, lcd, hide, run
+from fabric.api import env, local, task, hosts, runs_once, lcd, hide, run, cd
 from fabric.context_managers import settings
 
 env.user = 'deploy'
@@ -75,13 +75,28 @@ def remote_build():
     """
     Build the web site on the server and deploy it their.
     """
-    if run('test -d %s' % env.build_path):
-        run('rm -fr %s/*' % env.build_path)
-    if run('test -d ./env/').failed:
+
+    # If the website source doesn't exist clone it.
+    if run('test -d ~/website').failed:
+        run('git clone git://github.com/gtalug/website.git ~/website')
+
+    with cd('~/website'):
+        # Update the source directory to the latest version.
+        run('git fetch --all')
+        run('git checkout --force "master"')
+
+        # If the build directory exists delete it. 
+        if run('test -d %s' % env.build_path):
+            run('rm -fr %s/*' % env.build_path)
+
+        # Create the virtual environment directory and install the requirements.
+        if run('test -d ./env/').failed:
             run('virtualenv ./env')
             run('./env/bin/pip install -U -r requirements.txt')
-    run('./env/bin/python website.py build')
-    run('cp -r %s/* /srv/www/org_gtalug_www/html/' % env.build_path)
+
+        # Build and deploy the website. 
+        run('./env/bin/python website.py build')
+        run('cp -r %s/* /srv/www/org_gtalug_www/html/' % env.build_path)
 
 
 def check_working_dir_clean():
