@@ -7,6 +7,7 @@ from fabric.contrib.project import rsync_project
 from fabric.api import env, local, task, hosts, runs_once, lcd, hide
 from fabric.context_managers import settings
 
+env.user = 'deploy'
 env.hosts = ['penguin.gtalug.org', ]
 env.use_ssh_config = True
 env.build_path = os.path.abspath('./build/')
@@ -51,7 +52,7 @@ def build():
 
 
 @task
-@hosts('deploy@penguin.gtalug.org')
+@hosts('penguin.gtalug.org')
 def deploy():
     """
     This will deploy the web site to the GTALUG server.
