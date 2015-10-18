@@ -49,6 +49,7 @@ def build():
     clean()
     local('./env/bin/python website.py build')
 
+
 @task
 @hosts('deploy@penguin.gtalug.org')
 def deploy():
@@ -66,6 +67,7 @@ def deploy():
     )
     register_deployment(".")
 
+
 def check_working_dir_clean():
     """Aborts if not everything has been committed."""
     # Inspiration:
@@ -75,14 +77,15 @@ def check_working_dir_clean():
             abort('You have unstaged changes: to ignore, run with check_clean=no')
         if not local('git diff --cached --stat --exit-code').succeeded:
             abort('Your index contains uncommitted changes: to ignore, run with check_clean=no')
-    
+
         r = local('git ls-files --other --exclude-standard --directory', capture=True )
         if r != '':
             abort('Untracked files exist: to ignore, run with check_clean=no')
 
-@task 
-@runs_once 
+
+@task
+@runs_once
 def register_deployment(git_path):
     with hide('warnings'):
-        with(lcd(git_path)): 
+        with(lcd(git_path)):
             local("curl https://opbeat.com/api/v1/organizations/b33f729826be44e5b889ae0a8ec88eea/apps/049496b911/releases/ -H 'Authorization: Bearer 609dd34cebcf1f830036d102cf1be8d811c70a91' -d rev=`git log -n 1 --pretty=format:%H` -d branch=`git rev-parse --abbrev-ref HEAD` -d status=completed")
