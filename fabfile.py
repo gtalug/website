@@ -4,7 +4,8 @@ import os
 
 from fabric.utils import abort
 from fabric.contrib.project import rsync_project
-from fabric.api import env, local, task, hosts, runs_once, lcd, hide, run, cd
+from fabric.api import env, local, task, hosts, runs_once, lcd, hide, cd
+from fabric.operations import run
 from fabric.context_managers import settings
 
 env.user = 'deploy'
