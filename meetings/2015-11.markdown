@@ -1,12 +1,9 @@
-meeting_title: "To Be Annouced"
+meeting_title: "Lighting Talks"
 meeting_datetime: 2015-11-10T19:30:00
-meeting_speaker: "TBA"
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-10.html
 
-<div class="alert alert-info">
-GTALUG is currently looking for speakers for our November 2015
-meeting. If you are interested in speaking please contact our
-<a href="mailto:speaker-coordinator@gtalug.org" class="alert-link">speaker coordinator</a>.
-</div>
+November's GTALUG meeting will be a bunch of audience organised short talks. If you would like to give a talk, all you have to do is write your name on a post-it and stick it on the whiteboard in the front of the room. When your talk get's picked you will have 10 minutes of uninterrupted time for you to present, then 10 minutes of audience questions/concerns.
+
+Slides are not required, but if you need them please bring a PDF copy on a USB key or email them to <speaker-coordinator@gtalug.org>.
