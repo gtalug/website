@@ -1,5 +1,5 @@
 meeting_title: "Terminal Multiplexers and PXE Boot"
-meeting_datetime: 2015-03-10T19:30:00
+meeting_datetime: 2015-12-08T19:30:00
 meeting_speakers:
 - "Alex Volkov"
 - "Christopher Browne"
