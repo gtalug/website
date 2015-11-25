@@ -1,0 +1,26 @@
+meeting_title: "Terminal Multiplexers and PXE Boot"
+meeting_datetime: 2015-03-10T19:30:00
+meeting_speakers:
+- "Alex Volkov"
+- "Christopher Browne"
+- "Scott Sullivan"
+- "Myles Braithwaite"
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2015-03.html
+
+#### Screen, Tmux, Byobu, the Secret Terminal Brains!!!
+##### Christopher Browne
+
+GNU Screen has been lurking around since the 1980s, as a kind of "tiling window manager atop curses".
+
+BSD folk spawned an analogue called tmux in 2009, offering both additions and removals of functionality.
+
+Byobu offers a harmonization, and (arguably) better user experience.
+
+We'll look at some usages, use cases, and see how frequently Byobu Hollywood crashes.
+
+#### Good Bye Boot Media! (or, don't copy that boot floopy)
+##### Scott Sullivan
+
+A tour of how network boot/install can save you ever having to burn a DVDs or USB drive. 
