@@ -1,0 +1,9 @@
+meeting_title: "VIM"
+meeting_datetime: 2015-12-08T19:30:00
+meeting_speakers:
+- "Giles Orr"
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2015-10.html
+
+T.B.A.

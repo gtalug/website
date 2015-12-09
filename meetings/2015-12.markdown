@@ -21,4 +21,4 @@ We'll look at some usages, use cases, and see how frequently Byobu Hollywood cra
 #### Good Bye Boot Media! (or, don't copy that boot floopy)
 ##### Scott Sullivan
 
-A tour of how network boot/install can save you ever having to burn a DVDs or USB drive. 
+A tour of how network boot/install can save you ever having to burn a DVDs or USB drive.
