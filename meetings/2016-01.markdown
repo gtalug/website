@@ -1,8 +1,8 @@
 meeting_title: "VIM"
 meeting_datetime: 2016-01-12T19:30:00
-meeting_speaker: "Giles Orr"
+meeting_speaker: "A Journeyman's Tour of Vim"
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-10.html
 
-T.B.A.
+We won't be covering i-a-h-j-k-l:wq, but instead looking at a variety of commands and plugins you may not be familiar with that can make your editor even better.  This will include a discussion of neovim, colours, dealing with your vimrc, mappings, buffers and tabs, sessions, plugins, VimScript, and possibly a couple other topics.
