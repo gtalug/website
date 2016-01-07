@@ -43,7 +43,7 @@ If you are having issues subscribing to the mailing list please contact: <operat
 
 Invitation only list for active board members.
 
-### Legacy Mailing List <a href="legacy" name="legacy">#</a>
+### Legacy Mailing List <a href="#legacy" name="legacy">#</a>
 
 This is an old TLUG mailing list from July 2003 until October 2014.
 
