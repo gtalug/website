@@ -1,7 +1,7 @@
 title: GTALUG Mailing Lists
 template: pages/mailing-list.html
 
-### Talk List
+### Talk List <a href="#talk" name="talk">#</a>
 
 This is a general purpose list - for Linux announcements, technical questions, and other information. Subscribing to this list will automatically subscribe you to the Announce list.
 
@@ -17,7 +17,7 @@ You can view the list archive here: <http://gtalug.org/pipermail/talk/>.
 
 If you are having issues subscribing to the mailing list please contact: <talk-owner@gtalug.org>.
 
-### Announce Mailing List
+### Announce Mailing List <a href="#announce" name="announce">#</a>
 
 This is strictly an announcement list, not an interactive forum, from which you will receive important notices from the GTALUG administrators. Subscribing to this list will not automatically subscribe you to the GTALUG forum list.
 
@@ -29,7 +29,7 @@ You can view the list archive here: <http://gtalug.org/pipermail/announce>
 
 If you are having issues subscribing to the mailing list please contact: <announce-owner@gtalug.org>.
 
-### Operations Mailing List
+### Operations Mailing List <a href="#operations" name="operations">#</a>
 
 This mailing list is for people participating in operating GTALUG organization.
 
@@ -39,11 +39,11 @@ Or signup using the HTML form here: <http://gtalug.org/mailman/listinfo/operatio
 
 If you are having issues subscribing to the mailing list please contact: <operations-owner@gtalug.org>.
 
-### Board Mailing List
+### Board Mailing List <a href="#board" name="board">#</a>
 
 Invitation only list for active board members.
 
-### Legacy Mailing List
+### Legacy Mailing List <a href="legacy" name="legacy">#</a>
 
 This is an old TLUG mailing list from July 2003 until October 2014.
 
