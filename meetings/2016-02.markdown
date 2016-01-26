@@ -4,6 +4,8 @@ meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-10.html
 
+<img src="/static/uploads/meetings/2016-02/raspberrypi.jpg" alt="Raspberry Pi by Andreas_K">
+
 To start off the meeting we have two ten minute talks about using the Raspberry Pi in interesting ways:
 
 * Alex Volkov's Over-Enginerring of a Flower Pot using a Raspberry Pi.
