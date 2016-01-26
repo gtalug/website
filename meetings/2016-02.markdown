@@ -1,12 +1,12 @@
-meeting_title: "To Be Annouced"
+meeting_title: "Raspberry Pi Projects and Lighting Talks"
 meeting_datetime: 2016-02-09T19:30:00
-meeting_speaker: "TBA"
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-10.html
 
-<div class="alert alert-info">
-GTALUG is currently looking for speakers for our Feburary 2016
-meeting. If you are interested in speaking please contact our
-<a href="mailto:speaker-coordinator@gtalug.org" class="alert-link">speaker coordinator</a>.
-</div>
+To start off the meeting we have two ten minute talks about using the Raspberry Pi in interesting ways:
+
+* Alex Volkov's Over-Enginerring of a Flower Pot using a Raspberry Pi.
+* Mike Kalles's using a Raspberry Pi for Intrusion Detection.
+
+After Alex's and Mike's talk there will be a bunch of audience organised short talks. If you would like to give a talk, all you have to do is write your name on a post-it and stick it on the whiteboard in the front of the room. When your talk get's picked you will have five minutes of uninterrupted time for you to present, then five minutes of audience questions/concerns.
