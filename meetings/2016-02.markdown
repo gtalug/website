@@ -9,6 +9,6 @@ meeting_schedule_template: _schedules/2015-10.html
 To start off the meeting we have two ten minute talks about using the Raspberry Pi in interesting ways:
 
 * **Alex Volkov's Over-Enginerring of a Flower Pot using a Raspberry Pi**: Always remembering to water plants by making Raspberry Pi process analog inputs from HL-6o moisture sensor using MCP 3008.
-* **Mike Kalles's using a Raspberry Pi for Intrusion Detection**
+* **Mike Kalles's using Snort on the Pi**: Home network intrusion prevention with the Raspberry Pi.
 
 After Alex's and Mike's talk there will be a bunch of audience organised short talks. If you would like to give a talk, all you have to do is write your name on a post-it and stick it on the whiteboard in the front of the room. When your talk get's picked you will have five minutes of uninterrupted time for you to present, then five minutes of audience questions/concerns.
