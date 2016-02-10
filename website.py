@@ -131,6 +131,19 @@ def api_meeting_detail(slug):
     return Response(json.dumps(data), mimetype='application/json')
 
 
+@app.route('/twtxt.txt')
+def gtalug_twtxt():
+    meeting_list = list(
+        reversed(OrderedDict(sorted(meetings._pages.items())).values()))
+    
+    tweets = []
+    
+    for m in meeting_list:
+        tweets.append("%s\t%s <https://gtalug.org/meeting/%s/>" % (m.meta['meeting_datetime'].isoformat(), m.meta['meeting_title'], m.path))
+    
+    return Response('\n'.join(tweets), mimetype='text/plain')
+
+
 @app.route('/gtalug.ics')
 def gtalug_ics():
     meeting_list = list(
