@@ -3,11 +3,31 @@ template: pages/mailing-list.html
 
 ### Talk List <a href="#talk" name="talk">#</a>
 
-This is a general purpose list - for Linux announcements, technical questions, and other information. Subscribing to this list will automatically subscribe you to the Announce list.
+This list is for the discussion of Linux related issues, news, problems, and ideas.  Subscribing to this list will automatically subscribe you to the Announce list.
 
-This list is for the discussion of Linux related issues, news, problems, and ideas. This list is not anyone's personal soapbox. It is not for the discussion of political, social, or religious issues, bad jokes, personal rants or similar non Linux related discussion. Unsolicited commercial advertising will not be tolerated. Any subscribers who offers or requests pirated software, license keys or cracks, and similar will be dropped from the list without warning.
+GTALUG proudly supports its [Code of Conduct](https://gtalug.org/about/code-of-conduct/).
 
-Off topic messages will not be tolerated or endorsed. First time offenders will be warned. Repeat offenders will be restricted from posting to the list for a one month period, or until such time that the list managers feel the offender is capable of following the rules.
+Particularly for this list:
+
+- Don't be the guy on the soapbox,
+- Try to stay out of political, social, or religious issues,
+- Avoid bad jokes, personal rants or similar non-Linux related discussion,
+- Any subscribers who offers or requests pirated software, license keys or cracks, and similar will be dropped from the list without warning, and
+- No commercial advertising.
+
+Off topic messages will not be tolerated or endorsed. First time offenders will be warned.
+
+Job Postings are okay... with some rules:
+
+1. you have to be subscribed to the mailing list, 
+2. the job you are posting must be located in the Greater Toronto Area, and 
+3. the skill set required must be related to Linux or Open Source.
+
+Have fun on the list, and remember,
+
+- Where possible, please try to post and reply in plain text.
+- Please trim quotes in replies, and
+- post your response below the quoted text.
 
 To subscribe send an email to: <talk-subscribe@gtalug.org>.
 
