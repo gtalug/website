@@ -1,10 +1,8 @@
-meeting_title: "systemd and ZoneMinder"
+meeting_title: "systemd and What's Your Setup"
 meeting_datetime: 2016-03-08T19:30:00
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-10.html
 
-We have two thirty minute talks:
-
 * systemd with **Bill Thanis**
-* ZoneMinder with **Isaac Connor**
+* What's Your Setup: A round table dicussion on what you use to get stuff done.
