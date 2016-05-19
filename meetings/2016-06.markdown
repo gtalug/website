@@ -1,4 +1,5 @@
 meeting_title: "Nerd Money"
+meeting_speaker: "Warren McPherson"
 meeting_datetime: 2016-06-14T19:30:00
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
