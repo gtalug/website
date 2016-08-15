@@ -1,0 +1,12 @@
+meeting_title: "Ansible"
+meeting_datetime: 2016-10-13T19:30:00
+meeting_speakers:
+- Christopher Browne
+- Myles Braithwaite
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2016-08.html
+
+### Orchestrate your infrastructure like Gustav Mahler
+
+<img src="/static/uploads/meetings/2016-10/gustav-mahler.png" alt="Gustav Mahler">

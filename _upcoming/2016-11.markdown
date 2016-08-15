@@ -1,0 +1,8 @@
+meeting_title: "Ceph"
+meeting_datetime: 2016-11-11T19:30:00
+meeting_speaker: Bill Thanis
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2016-08.html
+
+<img src="/static/uploads/meetings/2016-11/elephant-by-staci.png" alt="Elephant by Staci">
