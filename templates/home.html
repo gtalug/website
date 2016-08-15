@@ -5,9 +5,6 @@
 {% block nav_home %}<li class="active"><a href="{{ url_for('index') }}">Home</a></li>{% endblock %}
 
 {% block page_body %}
-<div class="alert alert-info" role="alert">
-    <a href="/picnics/2016/"><strong>Linux in the Park 2016</strong></a> our annual BBQ in Dufferin Grove Park is happening on 23rd July 2016 at 2pm.
-</div>
 <article itemscope itemtype="http://schema.org/Event">
 	<header class="page-header">
 		<h2>
@@ -18,6 +15,12 @@
 			<span itemprop="performer" itemscope itemtype="http://schema.org/Person">
 				with&nbsp;<a href="{{ meeting.meeting_speaker_link }}" itemprop="name">{{ meeting.meeting_speaker | typogrify | safe }}</a>
 			</span>
+			{% elif meeting.meeting_speakers %}
+			with
+			{% for speaker in meeting.meeting_speakers %}
+			{{ speaker | typogrify | safe }}{% if not loop.last and not loop.length == 2 %}, {% endif %}
+			{% if loop.revindex == 2 %} and {% endif %}
+			{% endfor %}
 			{% endif %}
 		</h2>
 		<p class="lead" itemprop="startDate" content="{{ meeting.meeting_datetime }}">
