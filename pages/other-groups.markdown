@@ -9,7 +9,8 @@ title: Other Groups
 
 ## Computing Groups in Toronto
 
-* [Python Toronto](http://www.meetup.com/Python-Toronto/) - Meets on the second Wednesday of the month.
+* [Python Toronto](http://www.meetup.com/Python-Toronto/) - Meets on the second Wednesday of the month with talks on the Python programming language.
+* [Toronto Perl Mongers](http://www.meetup.com/Toronto-Perl-Mongers/) - Meets on the forth Thursday of the month with talks on the Perl programming language.
 * [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/)
 * [TUG](http://www.tug.ca/ "Toronto Users Group for Power Systems") - Meets on the second last Wednesday of the month to discuss IBM midrange servers.
 * [TOUG](http://www.toug.org/ "Toronto Oracle Users Group") - Meets on the fourth Tuesday of the month to discuss Oracle.
