@@ -26,3 +26,5 @@ title: Other Groups
 * [TorontoVMUG](http://tovmug.com/ "Toronto VMware User Group")
 * [TASK](http://www.task.to/ "Toronto Area Security Klatch")
 * [Toronto Azure](http://tagif.ca/ "The Toronto Azure Group")
+* [GPU Programming in Toronto](http://www.meetup.com/GPU-Programming-in-Toronto/)
+* [Toronto Raspberry Pi](http://www.meetup.com/Raspberry-Pi/)
