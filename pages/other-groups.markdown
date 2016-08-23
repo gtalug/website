@@ -16,7 +16,7 @@ title: Other Groups
 * [TOUG](http://www.toug.org/ "Toronto Oracle Users Group") - Meets on the fourth Tuesday of the month to discuss Oracle.
 * [TJUG](http://www.tjug.ca/ "Toronto Java Users Group") - Meets on the fourth Thursday of the month to discuss Java.
 * [TPUG](http://www.tpug.ca/ "Toronto PET Users Group")
-* [GTABUG](http://www.gtabug.ca/ "Greater Toronto Area BSD User Group") - Meets on the the third Wednesday of the month to discuss BSD.
+* [GTABUG](http://www.gtabug.org/ "Greater Toronto Area BSD User Group") - Meets on the the third Wednesday of the month to discuss BSD.
 * [Toronto Lisp Users' Group](http://www.lisptoronto.org/) - Meets on the first Tuesday of the month.
 * [Joomla Toronto](http://toronto.joomla.ca/)
 * [ArcUG](http://architectureug.com/ "Toronto IT Architecture User Group")
