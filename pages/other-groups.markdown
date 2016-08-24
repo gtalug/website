@@ -5,7 +5,8 @@ title: Other Groups
 * [BGLUG](http://bglug.ca/ "Bruce-Grey Linux User Group") *(Bruce-Grey County)* - Meets on the first Tuesday of the month.
 * [KWLUG](http://kwlug.org/ "The Kitchener Waterloo Linux User Group") *(Kitchener/Waterloo)* - Meets on the first Monday of the month.
 * [OCLUG](http://www.oclug.on.ca/ "Ottawa Canada Linux Users Group") *(Ottawa)* - Meets on the first Thursday of the month.
-* [PLUG](http://www.plugintolinux.ca/ "Peterbourough Linux User Group") *(Peterbouroug)*
+* [PLUG](http://www.plugintolinux.ca/ "Peterborough Linux User Group") *(Peterborough)*
+* [Barrie LUG](http://barrielug.org/)
 
 ## Computing Groups in Toronto
 
@@ -28,3 +29,5 @@ title: Other Groups
 * [Toronto Azure](http://tagif.ca/ "The Toronto Azure Group")
 * [GPU Programming in Toronto](http://www.meetup.com/GPU-Programming-in-Toronto/)
 * [Toronto Raspberry Pi](http://www.meetup.com/Raspberry-Pi/)
+* [LibrePlanet Ontario](https://libreplanet.org/wiki/Group:LibrePlanet_Ontario)
+* [Unix Unanimous](http://www.unixunanimous.org/)
