@@ -1,0 +1,10 @@
+meeting_title: "Ansible"
+meeting_datetime: 2016-10-11T19:30:00
+meeting_speaker: "Myles Braithwaite"
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2015-02.html
+
+<p class="lead">Orchestrate your infustrature with Ansible like Gustav Mahler.</p>
+
+Ansible is an open source configuration management and provisioning tool (similar to Chef and Puppet).
