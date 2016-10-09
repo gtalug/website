@@ -31,3 +31,7 @@ title: Other Groups
 * [Toronto Raspberry Pi](http://www.meetup.com/Raspberry-Pi/)
 * [LibrePlanet Ontario](https://libreplanet.org/wiki/Group:LibrePlanet_Ontario)
 * [Unix Unanimous](http://www.unixunanimous.org/)
+
+## Other Groups List of Groups
+
+* [KWLUG's List of Other User Groups around Kitchener nad Waterloo](http://kwlug.org/node/403).
