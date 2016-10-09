@@ -32,6 +32,7 @@ title: Other Groups
 * [LibrePlanet Ontario](https://libreplanet.org/wiki/Group:LibrePlanet_Ontario)
 * [Unix Unanimous](http://www.unixunanimous.org/)
 
-## Other Groups List of Groups
+## Other Websites List of Groups
 
 * [KWLUG's List of Other User Groups around Kitchener nad Waterloo](http://kwlug.org/node/403).
+* [Linux User Groups](http://lugslist.com/) - Started in 2015 as a list of international list of Linux User Groups.
