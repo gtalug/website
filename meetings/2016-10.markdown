@@ -15,8 +15,8 @@ meeting_schedule_template: _schedules/2016-08.html
 
 ### Ansible _(8:00 p.m.)_
 
-Ansible allows you to turn your infrastructure administration into a codebase. Descripting all the processes that are necessary for deploying a server with a set of provisioning scrips that can be stored in version control.
+Ansible allows you to turn your infrastructure administration into a codebase. Describing all the processes that are necessary for deploying a server with a set of provisioning scripts that can be stored in version control.
 
-Myles Braithwaite will be giving an overview of deploy and configure your infrastructure with Ansible.
+Myles Braithwaite will be giving an overview of how to deploy and configure your infrastructure with Ansible.
 
-Alex Volkov wil be going over running Vagrant as test environment, setting free as in speech LXC and KVM hypervisors with Vagrant, and notes on getting from bare hardware running with Debian automated install, and a few wrong Ansible commands.
+Alex Volkov wil be going over running Vagrant as test environment, setting free as in speech LXC and KVM hypervisors with Vagrant, and notes on getting from bare hardware to running with Debian automated install, and a few wrong Ansible commands.
