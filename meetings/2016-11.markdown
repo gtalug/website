@@ -5,7 +5,7 @@ meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2016-08.html
 
-<img src="/static/uploads/meetings/2016-11/game-of-go-in-our-club-by-jaro-larnos.png" alt="Game of Go in our club by Jaro Larnos">
+<img src="/static/uploads/meetings/2016-11/go-nikoncameract.png" alt="Game of GO by nikoncameract">
 
 Trying out a new language by:
 
