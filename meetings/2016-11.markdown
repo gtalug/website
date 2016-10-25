@@ -1,5 +1,5 @@
 meeting_title: "Thirteen Hours of Go"
-meeting_datetime: 2016-10-11T19:30:00
+meeting_datetime: 2016-11-08T19:30:00
 meeting_speakers:
 - David Collier-Brown
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
