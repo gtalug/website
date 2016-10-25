@@ -14,3 +14,5 @@ Trying out a new language by:
 - writing something that was hard elsewhere in it.
 
 And yes, it's indeed a cool language.
+
+[Presentation File](/static/uploads/meetings/2016-11/thirteen-talk.odp)
