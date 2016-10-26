@@ -15,4 +15,4 @@ Trying out a new language by:
 
 And yes, it's indeed a cool language.
 
-[Presentation File](/static/uploads/meetings/2016-11/thirteen-talk.odp)
+[Presentation file and source site](/https://github.com/davecb/jxpath)
