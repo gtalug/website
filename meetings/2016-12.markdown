@@ -1,6 +1,7 @@
 meeting_title: "Exposing High Level InnoDB Mechanics via Tunable System Variables in MySQL"
 meeting_datetime: 2016-12-13T19:30:00
-meeting_speakers: Peter Sylvester
+meeting_speakers:
+- Peter Sylvester
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2016-08.html
