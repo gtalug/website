@@ -31,8 +31,9 @@ title: Other Groups
 * [Toronto Raspberry Pi](http://www.meetup.com/Raspberry-Pi/)
 * [LibrePlanet Ontario](https://libreplanet.org/wiki/Group:LibrePlanet_Ontario)
 * [Unix Unanimous](http://www.unixunanimous.org/)
+* [Go To](https://www.meetup.com/go-toronto/ "Toronto Go User Group")
 
 ## Other Websites List of Groups
 
-* [KWLUG's List of Other User Groups around Kitchener nad Waterloo](http://kwlug.org/node/403).
+* [KWLUG's List of Other User Groups around Kitchener and Waterloo](http://kwlug.org/node/403).
 * [Linux User Groups](http://lugslist.com/) - Started in 2015 as a list of international list of Linux User Groups.
