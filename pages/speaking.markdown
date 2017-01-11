@@ -26,7 +26,7 @@ Check the location and maps to be sure not to get lost!
 
 The description and bio will be used on our website, in announcements and to introduce you as a speaker at the meeting.
 
-And please review the GTALUG Code of Conduct!
+And please review the [GTALUG Code of Conduct](/about/code-of-conduct/)!
 
 ### Meeting Facilities
 
