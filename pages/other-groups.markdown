@@ -7,6 +7,7 @@ title: Other Groups
 * [OCLUG](http://www.oclug.on.ca/ "Ottawa Canada Linux Users Group") *(Ottawa)* - Meets on the first Thursday of the month.
 * [PLUG](http://www.plugintolinux.ca/ "Peterborough Linux User Group") *(Peterborough)*
 * [Barrie LUG](http://barrielug.org/)
+* [LOLUG](https://lolug.ca/) *(London)*
 
 ## Computing Groups in Toronto
 
