@@ -12,3 +12,4 @@ After Myles' talk there will be a bunch of audience organized short talks. If yo
 ### Schedule Lighting Talks
 
 *   **Metal-as-a-Service** with David Collier-Brown
+*   _Add your name to this list by emailing [hi@gtalug.org](mailto:hi@gtalug.org)_
