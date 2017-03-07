@@ -4,52 +4,51 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="GTALUG - Greater Toronto Area Linux User Group">
-		
+
 		<link rel="shortcut icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
-		
+
 		<title>{% block page_title %}GTALUG{% endblock page_title %}</title>
-		
+
 		{%- assets filters="less", output="packed.css",
 			"less/style.less"
 		%}
 		<link rel="stylesheet" type="text/css" href="{{ ASSET_URL }}">
 		{%- endassets %}
-		
+
 		<link rel="canonical" type="text/html" href="http://gtalug.org{{ request.path }}">
-		
+
 		{% block extra_head %}{% endblock extra_head %}
 	</head>
 	<body id="www_gtalug_org">
 		<div class="container">
 			<div class="row">
-				
+
 				<aside itemscope itemtype="http://schema.org/Organization">
 					<a href="{{ url_for('index') }}" title="GTALUG - Greater Toronto Area Linux User Group" class="logo" itemprop="logo">
 						<img src="/static/img/gtalug-logo-small.png" alt="GTALUG - Greater Toronto Area Linux User Group">
 					</a>
-					
+
 					<h1 itemprop="name">
 						<acronym title="Greater Toronto Area Linux User Group">
 							GTALUG
 						</acronym>
 					</h1>
-					
+
 					<!-- TODO Write something clever about the group here:
 					<p class="lead"></p>
 					-->
-					
+
 					<ul>
                         <li><a href="{{ url_for('page', path='other-groups') }}">Other Groups</a></li>
-                        <li><a href="http://social.gtalug.org/gtalug">GnuSocial <small class="glyphicon glyphicon-new-window"></small></a></li>
 						<li><a href="https://www.facebook.com/gtalug">Facebook <small class="glyphicon glyphicon-new-window"></small></a></li>
 						<li><a href="https://plus.google.com/110858902106738937194" rel="publisher">Google+ <small class="glyphicon glyphicon-new-window"></small></a></li>
 						<li><a href="https://twitter.com/gtalug">Twitter <small class="glyphicon glyphicon-new-window"></small></a></li>
 						<li><a href="mailto:hi@gtalug.org?subject=Hi">Email</a></li>
 					</ul>
 				</aside>
-				
+
 				<main>
-					
+
 					<nav>
 						<ul>
 							{% block nav_home %}<li><a href="{{ url_for('index') }}">Home</a></li>{% endblock %}
@@ -59,11 +58,11 @@
                             {% block nav_wiki %}<li><a href="http://wiki.gtalug.org/">Wiki <small class="glyphicon glyphicon-new-window"></small></a></li>{% endblock %}
 						</ul>
 					</nav>
-					
+
 					<div class="page">
 						{% block page_body %}{% endblock page_body %}
 					</div>
-					
+
 					<footer>
 						{% block footer %}{% endblock %}
 					</footer>

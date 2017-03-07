@@ -7,3 +7,9 @@ meeting_schedule_template: _schedules/2015-10.html
 To start off the meeting we have a ten minute talk about Let's Encrypt with Myles Braithwaite.
 
 After Myles' talk there will be a bunch of audience organized short talks. If you would like to give a talk, all you have to do is write your name on a post-it and stick it on the whiteboard in the front of the room. When your talk get's picked you will have five minutes of uninterrupted time for you to present, then five minutes of audience questions/concerns.
+
+### Schedule Lighting Talks
+
+* **Metal-as-a-Service** with David Collier-Brown
+* **Assembly Language Programming Atmel
+Microprocessors (eg, the Arduino boards) from a Linux platform** with Peter Hiscocks
