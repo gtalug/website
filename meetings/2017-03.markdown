@@ -11,4 +11,4 @@ After Myles' talk there will be a bunch of audience organized short talks. If yo
 
 ### Schedule Lighting Talks
 
-* **Metal-as-a-Service** with David Collier-Brown
+*   **Metal-as-a-Service** with David Collier-Brown
