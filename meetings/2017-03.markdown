@@ -9,7 +9,7 @@ Microprocessors from a Linux platform** with Peter Hiscocks.
 
 After Myles' talk there will be a bunch of audience organized short talks. If you would like to give a talk, all you have to do is write your name on a post-it and stick it on the whiteboard in the front of the room. When your talk get's picked you will have five minutes of uninterrupted time for you to present, then five minutes of audience questions/concerns.
 
-### Schedule Lighting Talks
+### Schedule Five Minute Talks
 
 *   **Metal-as-a-Service** with David Collier-Brown
 *   _Add your name to this list by emailing [hi@gtalug.org](mailto:hi@gtalug.org)_
