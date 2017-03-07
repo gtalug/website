@@ -1,0 +1,9 @@
+meeting_title: "Let's Encrypt and Lighting Talks"
+meeting_datetime: 2017-03-14T19:30:00
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2015-10.html
+
+To start off the meeting we have a ten minute talk about Let's Encrypt with Myles Braithwaite.
+
+After Myles' talk there will be a bunch of audience organized short talks. If you would like to give a talk, all you have to do is write your name on a post-it and stick it on the whiteboard in the front of the room. When your talk get's picked you will have five minutes of uninterrupted time for you to present, then five minutes of audience questions/concerns.
