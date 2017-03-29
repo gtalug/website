@@ -1,0 +1,18 @@
+meeting_title: "Intelligent Availability™; The Evolution of High Availability"
+meeting_datetime: 2017-06-14T19:30:00
+meeting_speakers:
+- Madison
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2016-08.html
+
+Madison will discuss the tenants of and concepts behind "Intelligent
+Availability" and how it provides "next gen" availability. The "Anvil!"
+platform is the first full IA platform, combining a fully redundant
+architecture along with the 100% open source Striker UI and ScanCore
+"decision engine". A live demonstration of this platform will be used to
+show IA in action. Various faults will be induced, showing how the
+Anvil! autonomously reacts to mitigate these changing risks.
+
+Attendees will be learn how to apply these IA techniques and concepts,
+allowing them to make their own IT environments more resilient.
