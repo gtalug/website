@@ -4,6 +4,7 @@ meeting_speaker: "Stewart Russell"
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-10.html
+meeting_youtube_id: EH_txB_hJWw
 
 Building on a GTALUG Lightning Talk from 2015, Stewart goes over what you'll
 need to turn messy piles of paper into a (mostly) organized archive of compact

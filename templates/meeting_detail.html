@@ -34,16 +34,22 @@
 			{% endfor %}
 			{% endif %}
 		</h2>
-		
+
 		<p class="lead" itemprop="startDate" contnet="{{ meeting.meeting_datetime }}">
 			{{ meeting.meeting_datetime.strftime("%d %B, %Y at %I:%M %p") }}
 		</p>
 	</header>
-	
+
+    {% if meeting.meeting_youtube_id %}
+    <section itemprop="video">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ meeting.meeting_youtube_id }}?rel=0" frameborder="0" allowfullscreen></iframe>
+    </section>
+    {% endif %}
+
 	<section itemprop="description">
 		{{ meeting.html|safe }}
 	</section>
-	
+
 	<footer>
 		{% if meeting.meeting_location_template or meeting.meeting_location %}
 		<div class="location">
@@ -55,14 +61,14 @@
 			{% endif %}
 		</div>
 		{% endif %}
-		
+
 		{% if meeting.meeting_schedule_template %}
 		<div class="schedule">
 			<h3>Schedule</h3>
 			{% include meeting.meeting_schedule_template %}
 		</div>
 		{% endif %}
-		
+
 		<div class="code-of-conduct">
 			<h3>Code of Conduct</h3>
 			{% include "_coc/2015.html" %}
