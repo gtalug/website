@@ -1,5 +1,5 @@
 meeting_title: "Lessons learnt as a maintainer"
-meeting_datetime: 2017-05-10T19:30:00
+meeting_datetime: 2017-05-09T19:30:00
 meeting_speakers:
 - Dhaval Giani
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
@@ -7,4 +7,3 @@ meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2016-08.html
 
 I have been an upstream maintainer of libcgroup. As a maintainer, I have had varied experiences which have taught me important lessons. This talk goes over some anecdotes, and hopefully they provide some humour and some lessons.
-
