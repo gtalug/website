@@ -43,7 +43,7 @@ title: Other Groups
 * [Free Geek Toronto](https://www.freegeekToronto.org/ "Free Geek Toronto")
 * [Planet Geek](https://www.planetGeek.ca/ "Planet Geek")
 
-Maker spaces:
+## Maker spaces:
 * [Hacklab.to](https://hacklab.to/ "HackLab Toronto")
 * [Site 3 coLaboratory](https://www.site3.ca/  "Site 3 coLaboratory")
 
