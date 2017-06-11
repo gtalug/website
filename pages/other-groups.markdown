@@ -35,17 +35,17 @@ title: Other Groups
 * [Go To](https://www.meetup.com/go-toronto/ "Toronto Go User Group")
 
 ## Internet Access / ISPs:
-* [Toronto Free-Net](http://www.torfree.net/)
-* [Wireless Toronto](https://wirelessToronto.ca/)
-* [Toronto Mesh](https://www.tomesh.net/)
+* [Toronto Free-Net](http://www.torfree.net/) - A member run ISP. 
+* [Wireless Toronto](http://wirelessToronto.ca/) - Free wifi access in public spaces.
+* [Toronto Mesh](https://www.tomesh.net/) - Project to build a member operated wireless network.
 
 ## Computer Upcycling / Recycling:
-* [Free Geek Toronto](https://www.freegeekToronto.org/ "Free Geek Toronto")
-* [Planet Geek](https://www.planetGeek.ca/ "Planet Geek")
+* [Free Geek Toronto](https://www.freegeekToronto.org/ "Free Geek Toronto") - Cheap computers, refurbished by volunteers.
+* [Planet Geek](http://www.planetGeek.ca/ "Planet Geek") - Computers free to those in need, refurbished by volunteers.
 
 ## Maker spaces:
-* [Hacklab.to](https://hacklab.to/ "HackLab Toronto")
-* [Site 3 coLaboratory](https://www.site3.ca/  "Site 3 coLaboratory")
+* [Hacklab.to](https://hacklab.to/ "HackLab Toronto") - Open Houses on Tuesday Evenings.
+* [Site 3 coLaboratory](http://www.site3.ca/  "Site 3 coLaboratory") - Open Houses on Thrusday Evenings. 
 
 ## Other Websites List of Groups
 
