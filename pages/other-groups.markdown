@@ -34,7 +34,27 @@ title: Other Groups
 * [Unix Unanimous](http://www.unixunanimous.org/)
 * [Go To](https://www.meetup.com/go-toronto/ "Toronto Go User Group")
 
+## Internet Access / ISPs
+
+* [Toronto Free-Net](http://www.torfree.net/) - Member-run ISP. 
+* [Wireless Toronto](http://wirelessToronto.ca/) - Free wifi access in public spaces.
+* [Toronto Mesh](https://www.tomesh.net/) - Project to develop a mesh network.
+
+## Computer Upcycling / Recycling
+
+* [Free Geek Toronto](https://www.freegeekToronto.org/ "Free Geek Toronto") - Cheap computers, refurbished by volunteers.
+* [Planet Geek](http://www.planetGeek.ca/ "Planet Geek") - Computers free to those in need, refurbished by volunteers.
+
+## Makerspaces
+
+* [Hacklab.to](https://hacklab.to/ "HackLab Toronto") - Open house on Tuesday evenings.
+* [Site 3 coLaboratory](http://www.site3.ca/  "Site 3 coLaboratory") - Open house on Thrusday evenings. 
+
 ## Other Websites List of Groups
 
 * [KWLUG's List of Other User Groups around Kitchener and Waterloo](http://kwlug.org/node/403).
 * [Linux User Groups](http://lugslist.com/) - Started in 2015 as a list of international list of Linux User Groups.
+
+
+
+
