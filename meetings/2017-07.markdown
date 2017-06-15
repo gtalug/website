@@ -6,7 +6,7 @@ meeting_schedule_template: _schedules/2015-10.html
 
 _Lighting Talks_ is GTALUG's version of an un-conference, a loosely structured short talks emphasizing the informal exchange of information and ideas between participants, rather than following a conventionally structured GTALUG meetings.
 
-If you would like to give a talk, all you have to do is write your name on a post-it and stick it on the whiteboard in the front of the room. When your talk get's picked you will have five minutes of uninterrupted time for you to present, then five minutes of audience questions/concerns.
+If you would like to give a talk, all you have to do is write your name on a post-it and stick it on the whiteboard in the front of the room. When your talk get's picked you will have five uninterrupted minutes for you to present your idea, then five minutes of audience questions.
 
 ### Schedule Five Minute Talks
 
