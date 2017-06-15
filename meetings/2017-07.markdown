@@ -1,0 +1,13 @@
+meeting_title: "Lighting Talks"
+meeting_datetime: 2017-07-11T19:30:00
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2015-10.html
+
+_Lighting Talks_ is GTALUG's version of an un-conference, a loosely structured short talks emphasizing the informal exchange of information and ideas between participants, rather than following a conventionally structured GTALUG meetings.
+
+If you would like to give a talk, all you have to do is write your name on a post-it and stick it on the whiteboard in the front of the room. When your talk get's picked you will have five minutes of uninterrupted time for you to present, then five minutes of audience questions/concerns.
+
+### Schedule Five Minute Talks
+
+*   _Add your name to this list by emailing [hi@gtalug.org](mailto:hi@gtalug.org)_
