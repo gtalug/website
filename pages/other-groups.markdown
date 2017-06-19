@@ -2,12 +2,16 @@ title: Other Groups
 
 ## Neighbouring Linux User Groups
 
-* [BGLUG](http://bglug.ca/ "Bruce-Grey Linux User Group") *(Bruce-Grey County)* - Meets on the first Tuesday of the month.
-* [KWLUG](http://kwlug.org/ "The Kitchener Waterloo Linux User Group") *(Kitchener/Waterloo)* - Meets on the first Monday of the month.
-* [OCLUG](http://www.oclug.on.ca/ "Ottawa Canada Linux Users Group") *(Ottawa)* - Meets on the first Thursday of the month.
-* [PLUG](http://www.plugintolinux.ca/ "Peterborough Linux User Group") *(Peterborough)*
+* [BGLUG *(Bruce-Grey County)*](http://bglug.ca/ "Bruce-Grey Linux User Group") - Meets on the first Tuesday of the month.
+* [KWLUG *(Kitchener/Waterloo)*](http://kwlug.org/ "The Kitchener Waterloo Linux User Group") - Meets on the first Monday of the month.
+* [OCLUG *(Ottawa)*](http://www.oclug.on.ca/ "Ottawa Canada Linux Users Group") - Meets on the first Thursday of the month.
+* [PLUG *(Peterborough)*](http://www.plugintolinux.ca/ "Peterborough Linux User Group")
 * [Barrie LUG](http://barrielug.org/)
-* [LOLUG](https://lolug.ca/) *(London)*
+* [LOLUG *(London)*](https://lolug.ca/)
+
+## Great Lake Region Linux User Groups
+
+* [Chicago LUG](https://chicagolug.org/ "Chicago GNU/Linux User Group")
 
 ## Computing Groups in Toronto
 
