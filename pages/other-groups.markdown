@@ -9,7 +9,7 @@ title: Other Groups
 * [Barrie LUG](http://barrielug.org/)
 * [LOLUG *(London)*](https://lolug.ca/)
 
-## Great Lake Region Linux User Groups
+## The Great Lakes Region Linux User Groups
 
 * [Chicago LUG](https://chicagolug.org/ "Chicago GNU/Linux User Group")
 
