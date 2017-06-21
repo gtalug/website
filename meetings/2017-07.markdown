@@ -12,4 +12,6 @@ If you would like to give a talk, all you have to do is write your name on a pos
 
 *   **How does an enterprise distro kernel get made?** with Dhaval Giani
 *   Dave Doyle
+*   **Behaviour Directed Design** with David Collier Brown
+*   **Mastodon** with Myles Braithwaite
 *   _Add your name to this list by emailing [hi@gtalug.org](mailto:hi@gtalug.org)_
