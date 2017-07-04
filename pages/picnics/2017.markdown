@@ -1,0 +1,42 @@
+title: 2017 Linux in the Park
+template: pages/events.html
+
+<article itemscope itemtype="http://schema.org/Event">
+	<header class="page-header">
+		<h2>
+			<span itemprop="name">2017 Linux in the Park</span>
+		</h2>
+		<p class="lead" itemprop="startDate" contnet="2017-07-22T14:00">
+			22 July 2017 at 2pm
+		</p>
+	</header>
+	<section itemprop="description">
+		<p class="lead">
+			GTALUG is having the annual Linux in the Park Potluck this year at HackLab.TO's backyard on 22 July at 2pm.
+		</p>
+		<p>Things we will provide: Bathroom, BBQ, Plates,  Cutlery, Serviettes, Cups, and Garbage bags.</p>
+		<p>Things you might want to bring: chairs, tasty beverages, food stuffs that you would like to share and enjoy, tarp/blanket, sunscreen, hats, things to help survive the warmth of the Canadian Wilderness.</p>
+		<p>We will doing this in a pot-luck style.  Thus, please bring enough food and drink for yourself and your guests, and try to bring enough to share with others in the group.</p>
+        <p>We are orgiasing the event over on the GTALUG wiki: <a href="https://wiki.gtalug.org/event:linux_in_the_park_2017">https://wiki.gtalug.org/event:linux_in_the_park_2017</a>.</p>
+	</section>
+	<footer>
+		<div class="location">
+		<h2>Location</h2>
+		<div itemprop="location" itemscope itemtype="http://schema.org/Place">
+			<p itemprop="name">
+				HackLab.TO Backyard
+			</p>
+			<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<span itemprop="streetAddress">1266 Queen St. West, Suite #6</span>
+			</p>
+		</div>
+		<div class="code-of-conduct">
+			<h2>Code of Conduct</h2>
+			<p>We want a productive happy community that can welcome new ideas, improve every process every year, and foster collaboration between individuals with differing needs, interests and skills.</p>
+			<p>We gain strength from diversity, and actively seek participation from those who enhance it. This code of conduct exists to ensure that diverse groups collaborate to mutual advantage and enjoyment. We will challenge prejudice that could jeopardize the participation of any person in the community.
+			<p>The Code of Conduct governs <em>how we behave in public or in private whenever the Linux community will be judged by our actions</em>. We expect it to be honored by everyone who represents the community officially or informally, claims affiliation, or participates directly. It applies to activities online or offline.</p>
+			<p>We invite anybody to participate. Our community is open.</p>
+			<p>We encourage you <a href="/about/code-of-conduct/" title="Code of Conduct">to read the complete Code of Conduct</a> before attending the meeting.</p>
+		</div>
+	</footer>
+</article>
