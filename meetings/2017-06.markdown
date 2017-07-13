@@ -1,4 +1,4 @@
-meeting_title: "Intelligent Availability™; The Evolution of High Availability"
+meeting_title: "Intelligent Availability&#8482;; The Evolution of High Availability"
 meeting_datetime: 2017-06-13T19:30:00
 meeting_speakers:
 - Alex Bruneau
