@@ -1,24 +1,21 @@
 #!/usr/bin/env python
 
+import datetime
+import json
 import os
 import sys
-import json
-import datetime
 from collections import OrderedDict
 from os.path import abspath, dirname, join
 
-from flask import (
-    Flask, Response, render_template,
-    abort, send_from_directory, request)
-
-from flask_frozen import Freezer
-from flask_flatpages import FlatPages, pygmented_markdown
-from flask_assets import Environment as AssetManager
-
 import dateutil
-import vobject
 import html2text
+import vobject
 from dateutil import rrule
+from flask import (Flask, Response, render_template, request,
+                   send_from_directory)
+from flask_assets import Environment as AssetManager
+from flask_flatpages import FlatPages
+from flask_frozen import Freezer
 from typogrify.templatetags import jinja_filters as typogrify_filters
 
 # Configuration
@@ -40,7 +37,9 @@ class MeetingPages(FlatPages):
     def root(self):
         return MEETINGS_ROOT
 
+
 app = Flask(__name__, template_folder=TEMPLATE_ROOT)
+
 app.config.from_object(__name__)
 app.jinja_env.filters['typogrify'] = typogrify_filters.typogrify
 pages = FlatPages(app)
@@ -85,8 +84,6 @@ def api_upcoming_meeting():
 
 @app.route('/api/meetings.json')
 def api_meeting_list():
-    meeting_list = OrderedDict(sorted(meetings._pages.items())).values()[:10]
-
     data = []
 
     for m in meetings:
@@ -135,12 +132,14 @@ def api_meeting_detail(slug):
 def gtalug_twtxt():
     meeting_list = list(
         reversed(OrderedDict(sorted(meetings._pages.items())).values()))
-    
+
     tweets = []
-    
+
     for m in meeting_list:
-        tweets.append("%s\t%s <https://gtalug.org/meeting/%s/>" % (m.meta['meeting_datetime'].isoformat(), m.meta['meeting_title'], m.path))
-    
+        tweets.append("{0}\t{1} <https://gtalug.org/meeting/%s/>".format(
+            m.meta['meeting_datetime'].isoformat(),
+            m.meta['meeting_title'], m.path))
+
     return Response('\n'.join(tweets), mimetype='text/plain')
 
 
@@ -259,6 +258,7 @@ def page_list():
         yield 'meeting_detail', {'slug': m.path}
         yield 'meeting_detail_ics', {'slug': m.path}
         yield 'api_meeting_detail', {'slug': m.path}
+
 
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == "build":

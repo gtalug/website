@@ -2,11 +2,10 @@
 
 import os
 
-from fabric.utils import abort
-from fabric.contrib.project import rsync_project
 from fabric.api import env, local, task, hosts, runs_once, lcd, hide, cd
-from fabric.operations import run
 from fabric.context_managers import settings
+from fabric.contrib.project import rsync_project
+from fabric.operations import run
 
 env.user = 'deploy'
 env.hosts = ['penguin.gtalug.org', ]
@@ -85,15 +84,16 @@ def remote_build():
         run('git fetch --all')
         run('git checkout --force "master"')
 
-        # If the build directory exists delete it. 
+        # If the build directory exists delete it.
         if run('test -d %s' % env.build_path):
             run('rm -fr %s/*' % env.build_path)
 
-        # Create the virtual environment directory and install the requirements.
+        # Create the virtual environment directory and install the
+        # requirements.
         if run('test -d ./env/').failed:
             run('virtualenv ./env')
             run('./env/bin/pip install -U -r requirements.txt')
 
-        # Build and deploy the website. 
+        # Build and deploy the website.
         run('./env/bin/python website.py build')
         run('cp -r %s/* /srv/www/org_gtalug_www/html/' % env.build_path)
