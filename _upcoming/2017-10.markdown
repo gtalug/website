@@ -7,3 +7,12 @@ meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2016-08.html
 
 In November, Mozilla will release Firefox 57, a major update to the browser with a lot of new technology and features under the hood. Mike Hoye will be joining us to talk where Firefox, Mozilla and the Web are today, and where they're going.
+
+### Annual General Meeting
+
+After Mike's talk GTALUG will be doing it's annual general meeting.
+
+*   **GTALUG Update** -- 5 minutes
+*   **Treasury Update** -- 5 minutes
+*   **ICANN & CAG** -- 5 minutes
+*   **Board Elections** -- 20 minutes
