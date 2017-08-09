@@ -1,0 +1,16 @@
+meeting_title: "xterm and Docker"
+meeting_datetime: 2017-09-12T19:30:00
+meeting_speakers:
+- Christopher Browne
+- Greg Martyn
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2016-08.html
+
+### xterm with _Christopher Browne_
+
+TDA
+
+### Docker with _Greg Martyn_
+
+TDA
