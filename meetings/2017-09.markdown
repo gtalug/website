@@ -7,9 +7,15 @@ meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2016-08.html
 
-### xterm with _Christopher Browne_
+### xterms: State of Art 2017 with _Christopher Browne_
 
-TDA
+Many of us "live" in xterms, and there have been some developments.
+
+This talk pokes a bit at:
+
+-   The old, and what's still being developed
+-   The new, and there ARE some interesting developments
+-   A bit of the crazy!  Want an xterm that simulates shakey old amber monitors?  You got it!
 
 ### Docker with _Greg Martyn_
 
