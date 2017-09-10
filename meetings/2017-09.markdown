@@ -1,4 +1,4 @@
-meeting_title: "xterm and Docker"
+meeting_title: "xterm and Web Scrapping"
 meeting_datetime: 2017-09-12T19:30:00
 meeting_speakers:
 - Christopher Browne
@@ -17,6 +17,6 @@ This talk pokes a bit at:
 -   The new, and there ARE some interesting developments
 -   A bit of the crazy!  Want an xterm that simulates shakey old amber monitors?  You got it!
 
-### Docker with _Greg Martyn_
+### Web Scrapping with _Myles Braithwaite_
 
 TDA
