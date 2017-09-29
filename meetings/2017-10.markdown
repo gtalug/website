@@ -1,5 +1,5 @@
 meeting_title: "The State of Mozilla"
-meeting_datetime: 2017-09-12T19:30:00
+meeting_datetime: 2017-10-10T19:30:00
 meeting_speakers:
 - Mike Hoye
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
