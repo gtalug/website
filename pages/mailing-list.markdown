@@ -19,8 +19,8 @@ Off topic messages will not be tolerated or endorsed. First time offenders will 
 
 Job Postings are okay... with some rules:
 
-1. you have to be subscribed to the mailing list, 
-2. the job you are posting must be located in the Greater Toronto Area, and 
+1. you have to be subscribed to the mailing list,
+2. the job you are posting must be located in the Greater Toronto Area, and
 3. the skill set required must be related to Linux or Open Source.
 
 Have fun on the list, and remember,
@@ -29,9 +29,9 @@ Have fun on the list, and remember,
 - Please trim quotes in replies, and
 - post your response below the quoted text.
 
-To subscribe send an email to: <talk-subscribe@gtalug.org>.
+To signup send an email to: <talk-subscribe@gtalug.org>.
 
-Or signup using the HTML form here: <http://gtalug.org/mailman/listinfo/talk>.
+Subscribe or unsubscribe using the HTML form here: <http://gtalug.org/mailman/listinfo/talk>.
 
 You can view the list archive here: <http://gtalug.org/pipermail/talk/>.
 
