@@ -1,12 +1,17 @@
-meeting_title: "Building a 3D printer from scratch"
+meeting_title: "Building a 3D Printer from Scratch And "
 meeting_datetime: 2017-11-14T19:30:00
 meeting_speakers:
 - Alex Volkov
+- Greg Martyn
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2016-08.html
 
+### Building a 3D Printer from Scratch with _Alex Volkov_
+
 Building a 3D printer from scratch may be easier than making an apple pie from scratch! In this talk Alex will talk about getting into 3D printing 'the hard way' by building a clone of
 Prusa i3 MK2 from scratch using bits of wood, some metric hardware, arduino, 3D-printer and 3D printed parts, then attempting to design and print.
 
+### Docker for Web Development with _Greg Martyn_
 
+Since introducing his workplace to Docker in 2014, Greg Martyn has used it for local development, staging, and in production for dozens of websites. He'll walk us through the creation of a Dockerized website from start to finish, including Docker Hub, and building and deploying to Amazon Web Services and Google Cloud Platform.
