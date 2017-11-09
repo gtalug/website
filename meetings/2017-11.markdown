@@ -1,4 +1,4 @@
-meeting_title: "Building a 3D Printer from Scratch And "
+meeting_title: "'Building a 3D Printer from Scratch' and 'Docker for Web Development'"
 meeting_datetime: 2017-11-14T19:30:00
 meeting_speakers:
 - Alex Volkov
