@@ -1,4 +1,4 @@
-meeting_title: "Play it Again, Sam with "
+meeting_title: "Play it Again, Sam"
 meeting_datetime: 2018-01-09T19:30:00
 meeting_speakers:
 - David Collier-Brown
