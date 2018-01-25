@@ -1,0 +1,29 @@
+meeting_title: "Postgres, MVCC, and You (or, why COUNT(*) is slow)"
+meeting_datetime: 2018-02-13T19:30:00
+meeting_speakers:
+- David Wolever
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2016-08.html
+
+
+It's hard to be a developer today without using a database… but they're often surrounded by an air of reverent mystery.
+
+One of those mysteries is why it's so slow to count all the rows in a table using COUNT(*). After all, it's just a matter of walking a b-tree and counting leaves… and that should be trivial to optimize!
+
+In this talk I'll answer the question of "why COUNT(*) is slow" by taking a deep dive into the the internals of Postgres' MVCC implementation, looking at:
+
+* The question of "why COUNT(*) is slow"
+* The on-disk storage layout and why, under the hood, it's not a b-tree
+* What Postgres means by MVCC, with examples of the utility of transactions
+* Introduce xid, xmin, xmax
+* Discuss tuple visibility
+* Explain VACUUM and xid wraparound
+* Show off transaction isolation levels
+
+This talk is accessible to anyone who's used an SQL database, with enough depth that experienced developers will find some interesting tidbits.
+
+About me:
+David is a Pythonista from Toronto, Canada. He's co-founder of both PyCon Canada – Canada's regional Python conference – and Akindi.com – a small company that's making multiple-choice bubble sheet tests a little bit less terrible. He's also the author of nose-parameterized, a parameterized testing for every Python testrunner, and pprint++, a Python pretty-printer that's actually pretty. Say hi on Twitter: @wolever!
+
+
