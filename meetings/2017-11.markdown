@@ -6,6 +6,7 @@ meeting_speakers:
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2016-08.html
+meeting_youtube_id: JO74a_aN-A4
 
 ### Building a 3D Printer from Scratch with _Alex Volkov_
 

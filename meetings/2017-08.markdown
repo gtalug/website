@@ -5,6 +5,7 @@ meeting_speakers:
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2016-08.html
+meeting_youtube_id: 222pgIqah6k
 
 When people talk about Tor, they almost always think of the Tor daemon or Tor Browser. While this was true earlier, the Tor ecosystem has now expanded and includes a diverse set of applications that serve a variety of different users helping them to protect their privacy online or to circumvent Internet censorship. In this talk, we will start by introducing Tor and then briefly walk through the applications that are built around it.
 
