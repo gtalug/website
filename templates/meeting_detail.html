@@ -44,6 +44,15 @@
     <section itemprop="video">
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ meeting.meeting_youtube_id }}?rel=0" frameborder="0" allowfullscreen></iframe>
     </section>
+    {% elif meeting.meeting_youtube_playlist %}
+    ​<iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/videoseries?list={{ meeting.meeting_youtube_playlist }}" frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+
     {% endif %}
 
 	<section itemprop="description">
