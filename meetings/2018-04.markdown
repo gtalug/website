@@ -7,15 +7,14 @@ meeting_schedule_template: _schedules/2015-10.html
 
 Meeting talks
 
-# IndyWeb by Myles Braithwaite
-
-
-TODO: Add Description
-
-# GitAnnex by Chris Browne
+### IndieWeb by Myles Braithwaite
 
 TODO: Add Description
 
-# Unison by Alex Volkov
+### GitAnnex by Chris Browne
+
+TODO: Add Description
+
+### Unison by Alex Volkov
 
 TODO: Add Description
