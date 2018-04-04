@@ -13,7 +13,7 @@ TODO: Add Description
 
 ### GitAnnex by Chris Browne
 
-TODO: Add Description
+[git annex](https://git-annex.branchable.com/) is a file synchronizer that uses Git to manage its metadata and to help provide synchronization infrastructure.  I'll give an introduction and description of some common use cases.
 
 ### Unison by Alex Volkov
 
