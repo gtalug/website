@@ -17,4 +17,4 @@ TODO: Add Description
 
 ### Unison by Alex Volkov
 
-TODO: Add Description
+[Unison](https://www.cis.upenn.edu/~bcpierce/unison/) is a file synchronizer fior OSX, Unix and windows, it allows two replicas of a file or files to be changed independently, then brought up to date by propagating changes. I'll give a short introduction and common use cases for the program.
