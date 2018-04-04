@@ -1,5 +1,5 @@
 meeting_title: "IndyWeb by Myles Braithwaite; GitAnnex by Chris Browne and Unison by Alex Volkov"
-meeting_datetime: 2018-04-13T19:30:00
+meeting_datetime: 2018-04-10T19:30:00
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-10.html
