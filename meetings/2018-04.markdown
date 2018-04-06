@@ -4,17 +4,16 @@ meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-10.html
 
+### Talks
 
-Meeting talks
-
-### IndieWeb by [Myles Braithwaite](https://mylesb.ca/)
+#### IndieWeb by [Myles Braithwaite](https://mylesb.ca/)
 
 [IndieWeb](https://indieweb.org/) is a set of software utilities which allows you to independently maintain your social data on your own web domains rather than on large, centralized social networking services. Myles' will be disucssing how to setup your own IndieWeb compitable website.
 
-### GitAnnex by Chris Browne
+#### GitAnnex by Chris Browne
 
 [git annex](https://git-annex.branchable.com/) is a file synchronizer that uses Git to manage its metadata and to help provide synchronization infrastructure.  I'll give an introduction and description of some common use cases.
 
-### Unison by Alex Volkov
+#### Unison by Alex Volkov
 
 [Unison](https://www.cis.upenn.edu/~bcpierce/unison/) is a file synchronizer fior OSX, Unix and windows, it allows two replicas of a file or files to be changed independently, then brought up to date by propagating changes. I'll give a short introduction and common use cases for the program.
