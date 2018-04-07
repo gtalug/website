@@ -8,7 +8,7 @@ meeting_schedule_template: _schedules/2015-10.html
 
 #### IndieWeb by [Myles Braithwaite](https://mylesb.ca/)
 
-[IndieWeb](https://indieweb.org/) is a set of software utilities which allows you to independently maintain your social data on your own web domains rather than on large, centralized social networking services. Myles' will be disucssing how to setup your own IndieWeb compitable website.
+[IndieWeb](https://indieweb.org/) is a set of principles and building blocks for you to independently maintain your social data on your own web domains rather than on large, centralized social networking services. Myles' will be disucssing how to setup your own IndieWeb compitable website.
 
 #### GitAnnex by Chris Browne
 
