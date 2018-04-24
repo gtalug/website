@@ -1,0 +1,13 @@
+meeting_title: "Malware!"
+meeting_datetime: 2018-05-08T19:30:00
+meeting_speakers:
+- Garry Pejski
+meeting_location: "George Vari Engineering and Computing Centre, Room 203"
+meeting_location_template: _locations/r-gvecc-203.html
+meeting_schedule_template: _schedules/2016-08.html
+
+
+ Due to poor life decisions I made malware for a while. This is my story.
+
+ Handsome local computerist GARRY PEJSKI™ steps out of the shadows to warn the Toronto hacker community about the perils of performing cyber crimes. Heed his incredibly interesting words of wisdom or invite doom upon the world!
+
