@@ -136,9 +136,14 @@ def gtalug_twtxt():
     tweets = []
 
     for m in meeting_list:
-        tweets.append("{0}\t{1} <https://gtalug.org/meeting/%s/>".format(
-            m.meta['meeting_datetime'].isoformat(),
-            m.meta['meeting_title'], m.path))
+        context = {
+            'date': m.meta['meeting_datetime'].isoformat(),
+            'title': m.meta['meeting_title'],
+            'path': m.path
+        }
+
+        tweets.append("{date}\t{title} <https://gtalug.org/meeting/{path}/>".format(
+            **context)
 
     return Response('\n'.join(tweets), mimetype='text/plain')
 
