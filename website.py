@@ -142,8 +142,8 @@ def gtalug_twtxt():
             'path': m.path
         }
 
-        tweets.append("{date}\t{title} <https://gtalug.org/meeting/{path}/>".format(
-            **context)
+        tweets.append(
+            "{date}\t{title} <https://gtalug.org/meeting/{path}/>".format(**context))
 
     return Response('\n'.join(tweets), mimetype='text/plain')
 
