@@ -3,6 +3,7 @@ meeting_datetime: 2018-06-12T19:30:00
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-10.html
+meeting_youtube_playlist: PLUgE6dqIXiEuKRZYBrj1e0iT1_Y4gAHnZ
 
 _Lighting Talks_ is GTALUG's version of an un-conference, a loosely structured short talks emphasizing the informal exchange of information and ideas between participants, rather than following a conventionally structured GTALUG meetings.
 
