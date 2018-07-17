@@ -5,11 +5,12 @@ meeting_speakers:
 meeting_location: "George Vari Engineering and Computing Centre, Room 203"
 meeting_location_template: _locations/r-gvecc-203.html
 meeting_schedule_template: _schedules/2015-10.html
+meeting_youtube_id: lk5BpbGRyG8
 
-Don Tai shares their experience having explored the ever growing space of internet bots and web hacking tools.  
+Don Tai shares their experience having explored the ever growing space of internet bots and web hacking tools.
 A discussion of the concepts and tools for:
 * Internet traffic: what is bots vs humans?
 * Bot traffic signatures: spam bots (feedback, referrer), scrapers, malicious bot examples
 * Observing Bots and Controlling Bots: raw access log, WHOIS, htaccess
 * Reconnaissance: NMap, Armitage, Metasploit
-* Working with Vulnerability databases 
+* Working with Vulnerability databases
