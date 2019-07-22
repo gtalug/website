@@ -1,0 +1,51 @@
+title: 2019 Linux in the Park
+template: pages/events.html
+
+## Linux in the Park
+
+GTALUG's Annual Potluck BBQ.
+
+Held at Dufferin Grove Park on 20 July at 2pm.
+
+Things we will provide: Bathroom, BBQ, Plates, Cutlery, Serviettes, Cups, and
+Garbage bags.
+
+Things you might want to bring: chairs, tasty beverages, food stuffs that you
+would like to share and enjoy, tarp/blanket, sunscreen, hats, things to help
+survive the warmth of the Canadian Wilderness.
+
+We will doing this in a pot-luck style. Thus, please bring enough food and drink
+for yourself and your guests, and try to bring enough to share with others in
+the group.
+
+We are using the GTALUG wiki to organize everything:
+<https://wiki.gtalug.org/event:linux_in_the_park_2019>.
+
+## Location
+
+Dufferin Grove Park
+
+## Code of Conduct
+
+We want a productive happy community that can welcome new ideas, improve every
+process every year, and foster collaboration between individuals with differing
+needs, interests and skills.
+
+We gain strength from diversity, and actively seek participation from those who
+enhance it. This code of conduct exists to ensure that diverse groups
+collaborate to mutual advantage and enjoyment. We will challenge prejudice that
+could jeopardize the participation of any person in the community.
+
+The Code of Conduct governs how we behave in public or in private whenever the
+Linux community will be judged by our actions. We expect it to be honored by
+everyone who represents the community officially or informally, claims
+affiliation, or participates directly. It applies to activities online or
+offline.
+
+We invite anybody to participate. Our community is open.
+
+Please read more about the GTALUG Code of Conduct here:
+[Code of Conduct](http://gtalug.org/about/code-of-conduct/)
+
+If you have any questions, comments, or concerns about the GTALUG Code of
+Conduct please contact one of the GTALUG Board Members @ <board@gtalug.org>.
